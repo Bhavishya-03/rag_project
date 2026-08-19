@@ -1,0 +1,643 @@
+FRUIT NUTRITION REFERENCE
+Nutritional facts per 100 g of edible portion
+========================================================================
+
+This long text document contains approximate nutritional information for
+commonly consumed fruits. Values are intended for general reference and
+for testing a Python text-file parser. Actual values vary by variety,
+ripeness, growing conditions, storage, and database source.
+
+FIELDS: Calories (kcal), Carbohydrates (g), Protein (g), Fat (g),
+Dietary Fiber (g), Sugars (g), and Water (g).
+
+IMPORTANT: These are approximate values for raw edible fruit unless
+otherwise stated. They are not individualized medical or dietary advice.
+========================================================================
+
+01. APPLE
+------------------------------------------------------------------------
+Calories: 52 kcal per 100 g
+Carbohydrates: 13.8 g per 100 g
+Protein: 0.3 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.4 g per 100 g
+Sugars: 10.4 g per 100 g
+Water: 85.6 g per 100 g
+
+Apple is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+02. BANANA
+------------------------------------------------------------------------
+Calories: 89 kcal per 100 g
+Carbohydrates: 22.8 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.6 g per 100 g
+Sugars: 12.2 g per 100 g
+Water: 74.9 g per 100 g
+
+Banana is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+03. ORANGE
+------------------------------------------------------------------------
+Calories: 47 kcal per 100 g
+Carbohydrates: 11.8 g per 100 g
+Protein: 0.9 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 2.4 g per 100 g
+Sugars: 9.4 g per 100 g
+Water: 86.8 g per 100 g
+
+Orange is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+04. MANGO
+------------------------------------------------------------------------
+Calories: 60 kcal per 100 g
+Carbohydrates: 15.0 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 1.6 g per 100 g
+Sugars: 13.7 g per 100 g
+Water: 83.5 g per 100 g
+
+Mango is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+05. GRAPES
+------------------------------------------------------------------------
+Calories: 69 kcal per 100 g
+Carbohydrates: 18.1 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 0.9 g per 100 g
+Sugars: 15.5 g per 100 g
+Water: 80.5 g per 100 g
+
+Grapes is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+06. WATERMELON
+------------------------------------------------------------------------
+Calories: 30 kcal per 100 g
+Carbohydrates: 7.6 g per 100 g
+Protein: 0.6 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 0.4 g per 100 g
+Sugars: 6.2 g per 100 g
+Water: 91.4 g per 100 g
+
+Watermelon is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+07. PAPAYA
+------------------------------------------------------------------------
+Calories: 43 kcal per 100 g
+Carbohydrates: 10.8 g per 100 g
+Protein: 0.5 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.7 g per 100 g
+Sugars: 7.8 g per 100 g
+Water: 88.8 g per 100 g
+
+Papaya is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+08. PINEAPPLE
+------------------------------------------------------------------------
+Calories: 50 kcal per 100 g
+Carbohydrates: 13.1 g per 100 g
+Protein: 0.5 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 1.4 g per 100 g
+Sugars: 9.9 g per 100 g
+Water: 86.0 g per 100 g
+
+Pineapple is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+09. GUAVA
+------------------------------------------------------------------------
+Calories: 68 kcal per 100 g
+Carbohydrates: 14.3 g per 100 g
+Protein: 2.6 g per 100 g
+Fat: 1.0 g per 100 g
+Dietary Fiber: 5.4 g per 100 g
+Sugars: 8.9 g per 100 g
+Water: 80.8 g per 100 g
+
+Guava is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+10. POMEGRANATE
+------------------------------------------------------------------------
+Calories: 83 kcal per 100 g
+Carbohydrates: 18.7 g per 100 g
+Protein: 1.7 g per 100 g
+Fat: 1.2 g per 100 g
+Dietary Fiber: 4.0 g per 100 g
+Sugars: 13.7 g per 100 g
+Water: 77.9 g per 100 g
+
+Pomegranate is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+11. STRAWBERRY
+------------------------------------------------------------------------
+Calories: 32 kcal per 100 g
+Carbohydrates: 7.7 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.0 g per 100 g
+Sugars: 4.9 g per 100 g
+Water: 90.9 g per 100 g
+
+Strawberry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+12. BLUEBERRY
+------------------------------------------------------------------------
+Calories: 57 kcal per 100 g
+Carbohydrates: 14.5 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.4 g per 100 g
+Sugars: 10.0 g per 100 g
+Water: 84.2 g per 100 g
+
+Blueberry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+13. RASPBERRY
+------------------------------------------------------------------------
+Calories: 52 kcal per 100 g
+Carbohydrates: 11.9 g per 100 g
+Protein: 1.2 g per 100 g
+Fat: 0.7 g per 100 g
+Dietary Fiber: 6.5 g per 100 g
+Sugars: 4.4 g per 100 g
+Water: 85.8 g per 100 g
+
+Raspberry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+14. BLACKBERRY
+------------------------------------------------------------------------
+Calories: 43 kcal per 100 g
+Carbohydrates: 9.6 g per 100 g
+Protein: 1.4 g per 100 g
+Fat: 0.5 g per 100 g
+Dietary Fiber: 5.3 g per 100 g
+Sugars: 4.9 g per 100 g
+Water: 88.2 g per 100 g
+
+Blackberry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+15. PEAR
+------------------------------------------------------------------------
+Calories: 57 kcal per 100 g
+Carbohydrates: 15.2 g per 100 g
+Protein: 0.4 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 3.1 g per 100 g
+Sugars: 9.8 g per 100 g
+Water: 84.0 g per 100 g
+
+Pear is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+16. PEACH
+------------------------------------------------------------------------
+Calories: 39 kcal per 100 g
+Carbohydrates: 9.5 g per 100 g
+Protein: 0.9 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.5 g per 100 g
+Sugars: 8.4 g per 100 g
+Water: 88.9 g per 100 g
+
+Peach is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+17. PLUM
+------------------------------------------------------------------------
+Calories: 46 kcal per 100 g
+Carbohydrates: 11.4 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.4 g per 100 g
+Sugars: 9.9 g per 100 g
+Water: 87.2 g per 100 g
+
+Plum is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+18. SWEET CHERRY
+------------------------------------------------------------------------
+Calories: 63 kcal per 100 g
+Carbohydrates: 16.0 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.1 g per 100 g
+Sugars: 12.8 g per 100 g
+Water: 82.2 g per 100 g
+
+Sweet Cherry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+19. KIWI
+------------------------------------------------------------------------
+Calories: 61 kcal per 100 g
+Carbohydrates: 14.7 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.5 g per 100 g
+Dietary Fiber: 3.0 g per 100 g
+Sugars: 9.0 g per 100 g
+Water: 83.9 g per 100 g
+
+Kiwi is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+20. POMELO
+------------------------------------------------------------------------
+Calories: 38 kcal per 100 g
+Carbohydrates: 9.6 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.0 g per 100 g
+Dietary Fiber: 1.0 g per 100 g
+Sugars: 6.1 g per 100 g
+Water: 89.1 g per 100 g
+
+Pomelo is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+21. GRAPEFRUIT
+------------------------------------------------------------------------
+Calories: 42 kcal per 100 g
+Carbohydrates: 10.7 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 1.6 g per 100 g
+Sugars: 6.9 g per 100 g
+Water: 88.1 g per 100 g
+
+Grapefruit is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+22. LEMON
+------------------------------------------------------------------------
+Calories: 29 kcal per 100 g
+Carbohydrates: 9.3 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 2.5 g per 100 g
+Water: 89.0 g per 100 g
+
+Lemon is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+23. LIME
+------------------------------------------------------------------------
+Calories: 30 kcal per 100 g
+Carbohydrates: 10.5 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 1.7 g per 100 g
+Water: 88.3 g per 100 g
+
+Lime is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+24. COCONUT FLESH
+------------------------------------------------------------------------
+Calories: 354 kcal per 100 g
+Carbohydrates: 15.2 g per 100 g
+Protein: 3.3 g per 100 g
+Fat: 33.5 g per 100 g
+Dietary Fiber: 9.0 g per 100 g
+Sugars: 6.2 g per 100 g
+Water: 47.0 g per 100 g
+
+Coconut Flesh is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+25. AVOCADO
+------------------------------------------------------------------------
+Calories: 160 kcal per 100 g
+Carbohydrates: 8.5 g per 100 g
+Protein: 2.0 g per 100 g
+Fat: 14.7 g per 100 g
+Dietary Fiber: 6.7 g per 100 g
+Sugars: 0.7 g per 100 g
+Water: 73.2 g per 100 g
+
+Avocado is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+26. FRESH FIG
+------------------------------------------------------------------------
+Calories: 74 kcal per 100 g
+Carbohydrates: 19.2 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.9 g per 100 g
+Sugars: 16.3 g per 100 g
+Water: 79.1 g per 100 g
+
+Fresh Fig is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+27. APRICOT
+------------------------------------------------------------------------
+Calories: 48 kcal per 100 g
+Carbohydrates: 11.1 g per 100 g
+Protein: 1.4 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 2.0 g per 100 g
+Sugars: 9.2 g per 100 g
+Water: 86.4 g per 100 g
+
+Apricot is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+28. DRAGON FRUIT
+------------------------------------------------------------------------
+Calories: 57 kcal per 100 g
+Carbohydrates: 13.0 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 3.0 g per 100 g
+Sugars: 7.7 g per 100 g
+Water: 83.0 g per 100 g
+
+Dragon Fruit is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+29. PASSION FRUIT
+------------------------------------------------------------------------
+Calories: 97 kcal per 100 g
+Carbohydrates: 23.4 g per 100 g
+Protein: 2.2 g per 100 g
+Fat: 0.7 g per 100 g
+Dietary Fiber: 10.4 g per 100 g
+Sugars: 11.2 g per 100 g
+Water: 72.9 g per 100 g
+
+Passion Fruit is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+30. JACKFRUIT
+------------------------------------------------------------------------
+Calories: 95 kcal per 100 g
+Carbohydrates: 23.3 g per 100 g
+Protein: 1.7 g per 100 g
+Fat: 0.6 g per 100 g
+Dietary Fiber: 1.5 g per 100 g
+Sugars: 19.1 g per 100 g
+Water: 73.5 g per 100 g
+
+Jackfruit is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+31. CUSTARD APPLE
+------------------------------------------------------------------------
+Calories: 94 kcal per 100 g
+Carbohydrates: 23.6 g per 100 g
+Protein: 2.1 g per 100 g
+Fat: 0.6 g per 100 g
+Dietary Fiber: 4.4 g per 100 g
+Sugars: 12.9 g per 100 g
+Water: 71.5 g per 100 g
+
+Custard Apple is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+32. SAPOTA / CHIKOO
+------------------------------------------------------------------------
+Calories: 83 kcal per 100 g
+Carbohydrates: 20.0 g per 100 g
+Protein: 0.4 g per 100 g
+Fat: 1.1 g per 100 g
+Dietary Fiber: 5.3 g per 100 g
+Sugars: 14.7 g per 100 g
+Water: 78.0 g per 100 g
+
+Sapota / Chikoo is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+33. LYCHEE
+------------------------------------------------------------------------
+Calories: 66 kcal per 100 g
+Carbohydrates: 16.5 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 1.3 g per 100 g
+Sugars: 15.2 g per 100 g
+Water: 81.8 g per 100 g
+
+Lychee is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+34. FRESH DATES
+------------------------------------------------------------------------
+Calories: 142 kcal per 100 g
+Carbohydrates: 37.0 g per 100 g
+Protein: 1.8 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 6.7 g per 100 g
+Sugars: 31.0 g per 100 g
+Water: 60.0 g per 100 g
+
+Fresh Dates is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+35. CRANBERRY
+------------------------------------------------------------------------
+Calories: 46 kcal per 100 g
+Carbohydrates: 12.2 g per 100 g
+Protein: 0.4 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 4.6 g per 100 g
+Sugars: 4.3 g per 100 g
+Water: 87.1 g per 100 g
+
+Cranberry is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+36. CANTALOUPE
+------------------------------------------------------------------------
+Calories: 34 kcal per 100 g
+Carbohydrates: 8.2 g per 100 g
+Protein: 0.8 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 0.9 g per 100 g
+Sugars: 7.9 g per 100 g
+Water: 90.2 g per 100 g
+
+Cantaloupe is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+37. HONEYDEW MELON
+------------------------------------------------------------------------
+Calories: 36 kcal per 100 g
+Carbohydrates: 9.1 g per 100 g
+Protein: 0.5 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 0.8 g per 100 g
+Sugars: 8.1 g per 100 g
+Water: 89.8 g per 100 g
+
+Honeydew Melon is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+38. STAR FRUIT
+------------------------------------------------------------------------
+Calories: 31 kcal per 100 g
+Carbohydrates: 6.7 g per 100 g
+Protein: 1.0 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 3.9 g per 100 g
+Water: 91.4 g per 100 g
+
+Star Fruit is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+39. PERSIMMON
+------------------------------------------------------------------------
+Calories: 70 kcal per 100 g
+Carbohydrates: 18.6 g per 100 g
+Protein: 0.6 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 3.6 g per 100 g
+Sugars: 12.5 g per 100 g
+Water: 80.3 g per 100 g
+
+Persimmon is a whole fruit that contributes water, carbohydrates, and
+varying amounts of fiber, vitamins, minerals, and plant compounds.
+Its nutritional profile can differ depending on cultivar and maturity.
+
+========================================================================
+QUICK CALORIE REFERENCE
+========================================================================
+
+Apple: 52 kcal per 100 g
+Banana: 89 kcal per 100 g
+Orange: 47 kcal per 100 g
+Mango: 60 kcal per 100 g
+Grapes: 69 kcal per 100 g
+Watermelon: 30 kcal per 100 g
+Papaya: 43 kcal per 100 g
+Pineapple: 50 kcal per 100 g
+Guava: 68 kcal per 100 g
+Pomegranate: 83 kcal per 100 g
+Strawberry: 32 kcal per 100 g
+Blueberry: 57 kcal per 100 g
+Raspberry: 52 kcal per 100 g
+Blackberry: 43 kcal per 100 g
+Pear: 57 kcal per 100 g
+Peach: 39 kcal per 100 g
+Plum: 46 kcal per 100 g
+Sweet Cherry: 63 kcal per 100 g
+Kiwi: 61 kcal per 100 g
+Pomelo: 38 kcal per 100 g
+Grapefruit: 42 kcal per 100 g
+Lemon: 29 kcal per 100 g
+Lime: 30 kcal per 100 g
+Coconut Flesh: 354 kcal per 100 g
+Avocado: 160 kcal per 100 g
+Fresh Fig: 74 kcal per 100 g
+Apricot: 48 kcal per 100 g
+Dragon Fruit: 57 kcal per 100 g
+Passion Fruit: 97 kcal per 100 g
+Jackfruit: 95 kcal per 100 g
+Custard Apple: 94 kcal per 100 g
+Sapota / Chikoo: 83 kcal per 100 g
+Lychee: 66 kcal per 100 g
+Fresh Dates: 142 kcal per 100 g
+Cranberry: 46 kcal per 100 g
+Cantaloupe: 34 kcal per 100 g
+Honeydew Melon: 36 kcal per 100 g
+Star Fruit: 31 kcal per 100 g
+Persimmon: 70 kcal per 100 g
+
+========================================================================
+GENERAL OBSERVATIONS
+========================================================================
+
+Lower-calorie, water-rich examples include watermelon, lemon, lime,
+strawberry, cantaloupe, honeydew, pomelo, peach, and grapefruit.
+
+Some fruits are considerably more calorie-dense. Coconut flesh and
+avocado are notable because they contain much more fat than most fruits.
+Fresh dates, passion fruit, custard apple, and jackfruit also provide
+more calories per 100 g than many water-rich fruits.
+
+Fruits such as passion fruit, raspberry, avocado, guava, blackberry,
+and pomegranate provide relatively substantial dietary fiber.
+
+Fresh and dried fruit should not be compared directly by weight because
+drying removes water and concentrates calories and sugars.
+
+Whole fruit and fruit juice can also differ because juicing may remove
+much of the fiber and makes it easier to consume larger quantities quickly.
+
+========================================================================
+DATA QUALITY NOTES
+========================================================================
+
+1. Nutritional composition naturally varies between fruits.
+2. Different food databases may report slightly different numbers.
+3. Ripeness can change water, sugar, and carbohydrate levels.
+4. Values are per 100 g, not per fruit or per serving.
+5. Edible portion is used; peel, seeds, and pits are excluded when
+   they are normally not consumed.
+6. Added sugar is not included in raw whole-fruit values.
+7. This document is for general reference and software testing.
+
+========================================================================
+END OF FRUIT NUTRITION REFERENCE
+========================================================================

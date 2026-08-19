@@ -1,0 +1,748 @@
+VEGETABLE NUTRITION REFERENCE
+Nutritional facts per 100 g of edible portion
+========================================================================
+
+This long text document contains approximate nutritional information for
+commonly consumed vegetables. It is designed both as a general reference
+and as a test document for Python text parsing, extraction, searching,
+chunking, indexing, and natural-language-processing workflows.
+
+Unless otherwise stated, values refer to 100 g of the raw edible portion.
+Nutrition can vary with variety, maturity, growing conditions, storage,
+cooking method, and the nutritional database used.
+
+FIELDS USED THROUGHOUT THIS DOCUMENT:
+Calories (kcal), Carbohydrates (g), Protein (g), Fat (g),
+Dietary Fiber (g), Sugars (g), and Water (g).
+
+NOTE: Botanically, some foods commonly called vegetables are fruits.
+Examples include tomato, cucumber, pumpkin, eggplant, and bell pepper.
+Here they are included because they are commonly classified or used as
+vegetables in everyday cooking.
+========================================================================
+
+01. SPINACH
+------------------------------------------------------------------------
+Calories: 23 kcal per 100 g
+Carbohydrates: 3.6 g per 100 g
+Protein: 2.9 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 2.2 g per 100 g
+Sugars: 0.4 g per 100 g
+Water: 91.4 g per 100 g
+
+Spinach is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+02. BROCCOLI
+------------------------------------------------------------------------
+Calories: 34 kcal per 100 g
+Carbohydrates: 6.6 g per 100 g
+Protein: 2.8 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 2.6 g per 100 g
+Sugars: 1.7 g per 100 g
+Water: 89.3 g per 100 g
+
+Broccoli is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+03. CAULIFLOWER
+------------------------------------------------------------------------
+Calories: 25 kcal per 100 g
+Carbohydrates: 5.0 g per 100 g
+Protein: 1.9 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.0 g per 100 g
+Sugars: 1.9 g per 100 g
+Water: 92.1 g per 100 g
+
+Cauliflower is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+04. CARROT
+------------------------------------------------------------------------
+Calories: 41 kcal per 100 g
+Carbohydrates: 9.6 g per 100 g
+Protein: 0.9 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 4.7 g per 100 g
+Water: 88.3 g per 100 g
+
+Carrot is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+05. BEETROOT
+------------------------------------------------------------------------
+Calories: 43 kcal per 100 g
+Carbohydrates: 9.6 g per 100 g
+Protein: 1.6 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 6.8 g per 100 g
+Water: 87.6 g per 100 g
+
+Beetroot is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+06. POTATO
+------------------------------------------------------------------------
+Calories: 77 kcal per 100 g
+Carbohydrates: 17.5 g per 100 g
+Protein: 2.0 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 2.2 g per 100 g
+Sugars: 0.8 g per 100 g
+Water: 79.2 g per 100 g
+
+Potato is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+07. SWEET POTATO
+------------------------------------------------------------------------
+Calories: 86 kcal per 100 g
+Carbohydrates: 20.1 g per 100 g
+Protein: 1.6 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 3.0 g per 100 g
+Sugars: 4.2 g per 100 g
+Water: 77.3 g per 100 g
+
+Sweet Potato is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+08. TOMATO
+------------------------------------------------------------------------
+Calories: 18 kcal per 100 g
+Carbohydrates: 3.9 g per 100 g
+Protein: 0.9 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 1.2 g per 100 g
+Sugars: 2.6 g per 100 g
+Water: 95.0 g per 100 g
+
+Tomato is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+09. CUCUMBER
+------------------------------------------------------------------------
+Calories: 15 kcal per 100 g
+Carbohydrates: 3.6 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 0.5 g per 100 g
+Sugars: 1.7 g per 100 g
+Water: 95.2 g per 100 g
+
+Cucumber is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+10. BELL PEPPER
+------------------------------------------------------------------------
+Calories: 31 kcal per 100 g
+Carbohydrates: 6.0 g per 100 g
+Protein: 1.0 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.1 g per 100 g
+Sugars: 4.2 g per 100 g
+Water: 92.2 g per 100 g
+
+Bell Pepper is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+11. GREEN BEANS
+------------------------------------------------------------------------
+Calories: 31 kcal per 100 g
+Carbohydrates: 7.0 g per 100 g
+Protein: 1.8 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.7 g per 100 g
+Sugars: 3.3 g per 100 g
+Water: 90.3 g per 100 g
+
+Green Beans is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+12. GREEN PEAS
+------------------------------------------------------------------------
+Calories: 81 kcal per 100 g
+Carbohydrates: 14.5 g per 100 g
+Protein: 5.4 g per 100 g
+Fat: 0.4 g per 100 g
+Dietary Fiber: 5.7 g per 100 g
+Sugars: 5.7 g per 100 g
+Water: 78.9 g per 100 g
+
+Green Peas is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+13. CABBAGE
+------------------------------------------------------------------------
+Calories: 25 kcal per 100 g
+Carbohydrates: 5.8 g per 100 g
+Protein: 1.3 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 2.5 g per 100 g
+Sugars: 3.2 g per 100 g
+Water: 92.2 g per 100 g
+
+Cabbage is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+14. RED CABBAGE
+------------------------------------------------------------------------
+Calories: 31 kcal per 100 g
+Carbohydrates: 7.4 g per 100 g
+Protein: 1.4 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.1 g per 100 g
+Sugars: 3.8 g per 100 g
+Water: 90.4 g per 100 g
+
+Red Cabbage is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+15. BRUSSELS SPROUTS
+------------------------------------------------------------------------
+Calories: 43 kcal per 100 g
+Carbohydrates: 9.0 g per 100 g
+Protein: 3.4 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 3.8 g per 100 g
+Sugars: 2.2 g per 100 g
+Water: 86.0 g per 100 g
+
+Brussels Sprouts is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+16. KALE
+------------------------------------------------------------------------
+Calories: 35 kcal per 100 g
+Carbohydrates: 4.4 g per 100 g
+Protein: 2.9 g per 100 g
+Fat: 1.5 g per 100 g
+Dietary Fiber: 4.1 g per 100 g
+Sugars: 0.8 g per 100 g
+Water: 89.6 g per 100 g
+
+Kale is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+17. LETTUCE
+------------------------------------------------------------------------
+Calories: 15 kcal per 100 g
+Carbohydrates: 2.9 g per 100 g
+Protein: 1.4 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 1.3 g per 100 g
+Sugars: 0.8 g per 100 g
+Water: 95.0 g per 100 g
+
+Lettuce is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+18. BOK CHOY
+------------------------------------------------------------------------
+Calories: 13 kcal per 100 g
+Carbohydrates: 2.2 g per 100 g
+Protein: 1.5 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 1.0 g per 100 g
+Sugars: 1.2 g per 100 g
+Water: 95.3 g per 100 g
+
+Bok Choy is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+19. ZUCCHINI
+------------------------------------------------------------------------
+Calories: 17 kcal per 100 g
+Carbohydrates: 3.1 g per 100 g
+Protein: 1.2 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.0 g per 100 g
+Sugars: 2.5 g per 100 g
+Water: 94.8 g per 100 g
+
+Zucchini is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+20. EGGPLANT
+------------------------------------------------------------------------
+Calories: 25 kcal per 100 g
+Carbohydrates: 5.9 g per 100 g
+Protein: 1.0 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 3.0 g per 100 g
+Sugars: 3.5 g per 100 g
+Water: 92.3 g per 100 g
+
+Eggplant is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+21. OKRA
+------------------------------------------------------------------------
+Calories: 33 kcal per 100 g
+Carbohydrates: 7.5 g per 100 g
+Protein: 1.9 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 3.2 g per 100 g
+Sugars: 1.5 g per 100 g
+Water: 89.6 g per 100 g
+
+Okra is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+22. BOTTLE GOURD
+------------------------------------------------------------------------
+Calories: 14 kcal per 100 g
+Carbohydrates: 3.4 g per 100 g
+Protein: 0.6 g per 100 g
+Fat: 0.0 g per 100 g
+Dietary Fiber: 0.5 g per 100 g
+Sugars: 1.7 g per 100 g
+Water: 96.1 g per 100 g
+
+Bottle Gourd is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+23. BITTER GOURD
+------------------------------------------------------------------------
+Calories: 34 kcal per 100 g
+Carbohydrates: 7.0 g per 100 g
+Protein: 3.6 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 2.8 g per 100 g
+Sugars: 0.6 g per 100 g
+Water: 93.0 g per 100 g
+
+Bitter Gourd is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+24. RIDGE GOURD
+------------------------------------------------------------------------
+Calories: 20 kcal per 100 g
+Carbohydrates: 4.3 g per 100 g
+Protein: 1.2 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.1 g per 100 g
+Sugars: 1.9 g per 100 g
+Water: 93.0 g per 100 g
+
+Ridge Gourd is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+25. DRUMSTICK PODS
+------------------------------------------------------------------------
+Calories: 64 kcal per 100 g
+Carbohydrates: 8.3 g per 100 g
+Protein: 9.4 g per 100 g
+Fat: 1.4 g per 100 g
+Dietary Fiber: 2.0 g per 100 g
+Sugars: 1.0 g per 100 g
+Water: 78.7 g per 100 g
+
+Drumstick Pods is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+26. PUMPKIN
+------------------------------------------------------------------------
+Calories: 26 kcal per 100 g
+Carbohydrates: 6.5 g per 100 g
+Protein: 1.0 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 0.5 g per 100 g
+Sugars: 2.8 g per 100 g
+Water: 91.6 g per 100 g
+
+Pumpkin is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+27. CORN
+------------------------------------------------------------------------
+Calories: 86 kcal per 100 g
+Carbohydrates: 19.0 g per 100 g
+Protein: 3.3 g per 100 g
+Fat: 1.4 g per 100 g
+Dietary Fiber: 2.7 g per 100 g
+Sugars: 6.3 g per 100 g
+Water: 73.4 g per 100 g
+
+Corn is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+28. ONION
+------------------------------------------------------------------------
+Calories: 40 kcal per 100 g
+Carbohydrates: 9.3 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 1.7 g per 100 g
+Sugars: 4.2 g per 100 g
+Water: 89.1 g per 100 g
+
+Onion is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+29. GARLIC
+------------------------------------------------------------------------
+Calories: 149 kcal per 100 g
+Carbohydrates: 33.1 g per 100 g
+Protein: 6.4 g per 100 g
+Fat: 0.5 g per 100 g
+Dietary Fiber: 2.1 g per 100 g
+Sugars: 1.0 g per 100 g
+Water: 58.6 g per 100 g
+
+Garlic is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+30. GINGER
+------------------------------------------------------------------------
+Calories: 80 kcal per 100 g
+Carbohydrates: 17.8 g per 100 g
+Protein: 1.8 g per 100 g
+Fat: 0.8 g per 100 g
+Dietary Fiber: 2.0 g per 100 g
+Sugars: 1.7 g per 100 g
+Water: 78.9 g per 100 g
+
+Ginger is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+31. TURNIP
+------------------------------------------------------------------------
+Calories: 28 kcal per 100 g
+Carbohydrates: 6.4 g per 100 g
+Protein: 0.9 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 1.8 g per 100 g
+Sugars: 3.8 g per 100 g
+Water: 91.9 g per 100 g
+
+Turnip is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+32. RADISH
+------------------------------------------------------------------------
+Calories: 16 kcal per 100 g
+Carbohydrates: 3.4 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 1.6 g per 100 g
+Sugars: 1.9 g per 100 g
+Water: 95.3 g per 100 g
+
+Radish is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+33. MUSHROOM
+------------------------------------------------------------------------
+Calories: 22 kcal per 100 g
+Carbohydrates: 3.3 g per 100 g
+Protein: 3.1 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 1.0 g per 100 g
+Sugars: 2.0 g per 100 g
+Water: 92.5 g per 100 g
+
+Mushroom is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+34. ASPARAGUS
+------------------------------------------------------------------------
+Calories: 20 kcal per 100 g
+Carbohydrates: 3.9 g per 100 g
+Protein: 2.2 g per 100 g
+Fat: 0.1 g per 100 g
+Dietary Fiber: 2.1 g per 100 g
+Sugars: 1.9 g per 100 g
+Water: 93.2 g per 100 g
+
+Asparagus is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+35. CELERY
+------------------------------------------------------------------------
+Calories: 14 kcal per 100 g
+Carbohydrates: 3.0 g per 100 g
+Protein: 0.7 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 1.6 g per 100 g
+Sugars: 1.3 g per 100 g
+Water: 95.4 g per 100 g
+
+Celery is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+36. GREEN CHILLI
+------------------------------------------------------------------------
+Calories: 40 kcal per 100 g
+Carbohydrates: 8.8 g per 100 g
+Protein: 2.0 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 1.5 g per 100 g
+Sugars: 5.3 g per 100 g
+Water: 87.7 g per 100 g
+
+Green Chilli is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+37. YAM
+------------------------------------------------------------------------
+Calories: 118 kcal per 100 g
+Carbohydrates: 27.9 g per 100 g
+Protein: 1.5 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 4.1 g per 100 g
+Sugars: 0.5 g per 100 g
+Water: 69.6 g per 100 g
+
+Yam is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+38. RAW BANANA
+------------------------------------------------------------------------
+Calories: 89 kcal per 100 g
+Carbohydrates: 22.8 g per 100 g
+Protein: 1.1 g per 100 g
+Fat: 0.3 g per 100 g
+Dietary Fiber: 2.6 g per 100 g
+Sugars: 12.2 g per 100 g
+Water: 74.9 g per 100 g
+
+Raw Banana is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+39. TARO ROOT
+------------------------------------------------------------------------
+Calories: 142 kcal per 100 g
+Carbohydrates: 34.6 g per 100 g
+Protein: 0.5 g per 100 g
+Fat: 0.2 g per 100 g
+Dietary Fiber: 5.1 g per 100 g
+Sugars: 0.5 g per 100 g
+Water: 63.8 g per 100 g
+
+Taro Root is a commonly consumed vegetable or vegetable-like food.
+It contributes varying amounts of water, carbohydrates, protein,
+fiber, vitamins, minerals, and naturally occurring plant compounds.
+Its exact composition can vary with variety and preparation.
+
+========================================================================
+QUICK CALORIE REFERENCE
+========================================================================
+
+Spinach: 23 kcal per 100 g
+Broccoli: 34 kcal per 100 g
+Cauliflower: 25 kcal per 100 g
+Carrot: 41 kcal per 100 g
+Beetroot: 43 kcal per 100 g
+Potato: 77 kcal per 100 g
+Sweet Potato: 86 kcal per 100 g
+Tomato: 18 kcal per 100 g
+Cucumber: 15 kcal per 100 g
+Bell Pepper: 31 kcal per 100 g
+Green Beans: 31 kcal per 100 g
+Green Peas: 81 kcal per 100 g
+Cabbage: 25 kcal per 100 g
+Red Cabbage: 31 kcal per 100 g
+Brussels Sprouts: 43 kcal per 100 g
+Kale: 35 kcal per 100 g
+Lettuce: 15 kcal per 100 g
+Bok Choy: 13 kcal per 100 g
+Zucchini: 17 kcal per 100 g
+Eggplant: 25 kcal per 100 g
+Okra: 33 kcal per 100 g
+Bottle Gourd: 14 kcal per 100 g
+Bitter Gourd: 34 kcal per 100 g
+Ridge Gourd: 20 kcal per 100 g
+Drumstick Pods: 64 kcal per 100 g
+Pumpkin: 26 kcal per 100 g
+Corn: 86 kcal per 100 g
+Onion: 40 kcal per 100 g
+Garlic: 149 kcal per 100 g
+Ginger: 80 kcal per 100 g
+Turnip: 28 kcal per 100 g
+Radish: 16 kcal per 100 g
+Mushroom: 22 kcal per 100 g
+Asparagus: 20 kcal per 100 g
+Celery: 14 kcal per 100 g
+Green Chilli: 40 kcal per 100 g
+Yam: 118 kcal per 100 g
+Raw Banana: 89 kcal per 100 g
+Taro Root: 142 kcal per 100 g
+
+========================================================================
+LOW-CALORIE VEGETABLE EXAMPLES
+========================================================================
+
+Very low-calorie examples in this reference include cucumber, lettuce,
+bottle gourd, celery, radish, bok choy, tomato, zucchini, and asparagus.
+
+These foods contain a high proportion of water and can add volume to meals
+while contributing relatively few calories per 100 g.
+
+========================================================================
+HIGHER-CALORIE VEGETABLE EXAMPLES
+========================================================================
+
+Some foods in the vegetable category contain considerably more calories.
+Examples include garlic, taro root, yam, corn, potato, and sweet potato.
+
+Root and tuber vegetables often contain more starch and carbohydrate than
+leafy vegetables. This does not make them unhealthy; they simply have a
+different nutritional profile and energy density.
+
+========================================================================
+FIBER-RICH VEGETABLE EXAMPLES
+========================================================================
+
+Relatively high-fiber examples include kale, Brussels sprouts, green peas,
+yam, taro root, bitter gourd, okra, eggplant, and sweet potato.
+
+Fiber is a type of carbohydrate that is not completely digested by the
+human digestive system. It contributes to normal digestive function and
+can be part of a balanced dietary pattern.
+
+========================================================================
+RAW VERSUS COOKED VEGETABLES
+========================================================================
+
+Cooking can change the weight and nutrient concentration of vegetables.
+Boiling may cause some water-soluble nutrients to move into cooking water.
+Steaming can preserve the structure of many vegetables while softening them.
+Roasting can reduce water content and therefore increase nutrient values
+per 100 g of the cooked food because the cooked food weighs less.
+
+Therefore, raw and cooked nutrition values should not always be compared
+directly by weight.
+
+========================================================================
+GENERAL DATA NOTES
+========================================================================
+
+1. All nutritional numbers are approximate.
+2. Values are presented per 100 g of edible portion.
+3. Values can differ among food databases.
+4. Variety, maturity, soil, season, and storage can affect composition.
+5. Preparation and cooking can substantially change values.
+6. Added oils, butter, sauces, salt, or sugar are not included here.
+7. This document is a general reference and not individualized medical advice.
+
+========================================================================
+EXAMPLE COMPARISON
+========================================================================
+
+Consider three common vegetables:
+
+Spinach: 23 kcal, 2.9 g protein, 2.2 g fiber per 100 g.
+Broccoli: 34 kcal, 2.8 g protein, 2.6 g fiber per 100 g.
+Potato: 77 kcal, 2.0 g protein, 2.2 g fiber per 100 g.
+
+These examples demonstrate how vegetables can differ substantially in
+calorie density and macronutrient composition.
+
+Leafy vegetables often contain a large amount of water and relatively few
+calories. Starchy roots and tubers generally provide more carbohydrate.
+
+========================================================================
+FINAL REFERENCE
+========================================================================
+
+The primary reference unit throughout this document is 100 grams.
+The main fields are fruit/vegetable name, calories, carbohydrates, protein,
+fat, dietary fiber, sugars, and water.
+
+This document can be used to test:
+- Python open() and read()
+- UTF-8 text handling
+- Long-file extraction
+- Text search
+- Keyword extraction
+- Chunking
+- Document indexing
+- NLP preprocessing
+- Embedding generation
+- Retrieval pipelines
+- Database ingestion
+
+END OF VEGETABLE NUTRITION REFERENCE
+========================================================================
