@@ -8,11 +8,9 @@ collection = chroma_client.get_collection(name="document_buckets")
 total_chunks = collection.count()
 print(f"Total Chunks Stored in DB: {total_chunks}")
 
-# Fetch metadata for ALL chunks (no limit)
 data = collection.get(include=["metadatas"])
 metadatas = data["metadatas"]
 
-# Count chunks per file
 file_counts = Counter((m["bucket"], m["filename"]) for m in metadatas)
 
 print("\n=== INDEXED FILES & CHUNK BREAKDOWN ===")
