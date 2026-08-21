@@ -7,7 +7,7 @@ MODEL_NAME = "gemma"
 def ask_rag(user_query: str) -> dict:
     try:
         clean_query = user_query.replace("_", " ").strip()
-        chunks = retrieve_context(user_query=clean_query, top_k=5, max_distance=0.50)
+        chunks = retrieve_context(user_query=clean_query, top_k=5, max_distance=0.70)
         
         if not chunks:
             return {
