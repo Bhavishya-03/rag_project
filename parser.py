@@ -13,15 +13,12 @@ def parse_text(file_path: str) -> str:
 def parse_image(file_path: str) -> str:
     try:
         with Image.open(file_path) as img:
-            # Fix EXIF orientation (rotated smartphone JPGs)
             img = ImageOps.exif_transpose(img)
             
-            # CRITICAL: Force conversion to standard RGB (fixes CMYK/grayscale JPGs)
             img = img.convert("RGB")
             
             img_np = np.array(img)
 
-        # Run RapidOCR
         result, _ = ocr_engine(img_np)
         
         if result:

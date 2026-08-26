@@ -1,4 +1,3 @@
-import sys
 import ollama
 from query import retrieve_context, format_prompt
 

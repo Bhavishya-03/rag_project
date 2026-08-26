@@ -13,30 +13,6 @@ collection = chroma_client.get_or_create_collection(
     embedding_function=embedding_func
 )
 
-# def retrieve_context(user_query: str, top_k: int = 5, max_distance: float = 0.65) -> list:
-#     """Retrieves context without spamming the terminal with debug logs."""
-#     results = collection.query(
-#         query_texts=[user_query],
-#         n_results=top_k
-#     )
-
-#     retrieved_chunks = []
-    
-#     if results and results["documents"]:
-#         docs = results["documents"][0]
-#         metas = results["metadatas"][0]
-#         distances = results["distances"][0] if "distances" in results else []
-
-#         for idx, doc in enumerate(docs):
-#             dist = distances[idx] if idx < len(distances) else 1.0
-#             if dist <= max_distance:
-#                 retrieved_chunks.append({
-#                     "text": doc,
-#                     "metadata": metas[idx],
-#                     "distance": dist
-#                 })
-
-#     return retrieved_chunks
 def retrieve_context(user_query: str, top_k: int = 5, max_distance: float = 0.50) -> list:
     results = collection.query(
         query_texts=[user_query],
