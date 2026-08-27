@@ -1,0 +1,274 @@
+{"timestamp": "2026-08-27T17:31:24", "level": "INFO", "module": "test", "event": "logging_test", "details": {"status": "success"}}
+{"timestamp": "2026-08-27T17:31:24", "level": "WARNING", "module": "test", "event": "warning_test", "details": {"reason": "test warning"}}
+{"timestamp": "2026-08-27T17:31:24", "level": "ERROR", "module": "test", "event": "error_test", "details": {"reason": "test error"}}
+{"timestamp": "2026-08-27T17:49:58", "level": "INFO", "module": "parser", "event": "pdf_parsing_completed", "details": {"filename": "DietaryGuidelinesforIN_139.pdf", "pages": 139, "ocr_pages": 4, "characters_extracted": 206579, "duration_seconds": 2.239}}
+{"timestamp": "2026-08-27T18:00:41", "level": "INFO", "module": "__main__", "event": "ingestion_started", "details": {"bucket": "bucket_1"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "apple_5.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "banana_4.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "best_foods_for_breakfast.txt", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "bone_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "brain_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "cabbage_4.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "carbohydrates.jpg", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "dates.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "DietaryGuidelinesforIN_139.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "Food,Nutrition,HealthAndFitness_19.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "food_1.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "food_2.jpg", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "food_3.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "fruit_nutritional_facts.txt", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "guava_2.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "healthy_lifestyle_4.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "heart_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "kidney_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "lemon_1_5.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "mango_15.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "peas_7.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "pomegranate_8.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "potato_4.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "proteins.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "pumpkin_seeds.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "skin_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_1", "filename": "stomach_food.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "bucket_completed", "details": {"bucket": "bucket_1", "files_processed": 0, "files_skipped": 27, "files_failed": 0, "chunks_created": 0, "chunking_duration_seconds": 0.0, "embedding_duration_seconds": 0.0, "duration_seconds": 0.185}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "ingestion_started", "details": {"bucket": "bucket_2"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "apple.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "apple_2.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "avacado.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "Basics_of_food_nutrition_54.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "blueberries.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "brocolli.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "carrot_4.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "cucumber_5.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "Dark_chocolate_14.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "flax_seeds.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "FoodAndNutrition_43.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "Foods for Healthy Hair.txt", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "food_4.jpeg", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "food_5.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "jackfruit_48.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "lemon.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "lemon_2_3.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "lentil.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "lentils_14.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "nutritional_properties_16.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "orange.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "portion_contol_8.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "spinach.png", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "spinach_6.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "tomato_6.pdf", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "file_skipped", "details": {"bucket": "bucket_2", "filename": "vegetable_nutritional_facts.txt", "reason": "already_indexed"}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "bucket_completed", "details": {"bucket": "bucket_2", "files_processed": 0, "files_skipped": 26, "files_failed": 0, "chunks_created": 0, "chunking_duration_seconds": 0.0, "embedding_duration_seconds": 0.0, "duration_seconds": 0.126}}
+{"timestamp": "2026-08-27T18:00:42", "level": "INFO", "module": "__main__", "event": "ingestion_completed", "details": {"duration_seconds": 0.311}}
+{"timestamp": "2026-08-27T18:13:08", "level": "INFO", "module": "query", "event": "retrieval_completed", "details": {"query": "essential nutrients", "chunks_requested": 5, "chunks_retrieved": 5, "chunks_accepted": 5, "duration_seconds": 0.064}}
+{"timestamp": "2026-08-27T18:17:38", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "nutrition in mango"}}
+{"timestamp": "2026-08-27T18:17:38", "level": "INFO", "module": "query", "event": "retrieval_completed", "details": {"query": "nutrition in mango", "chunks_requested": 5, "chunks_retrieved": 5, "chunks_accepted": 5, "duration_seconds": 0.054}}
+{"timestamp": "2026-08-27T18:17:39", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "nutrition in mango", "model": "openai/gpt-oss-20b", "latency_sec": 0.937, "input_tokens": 1019, "output_tokens": 300, "total_tokens": 1319}}
+{"timestamp": "2026-08-27T18:17:39", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "nutrition in mango", "latency_sec": 0.992}}
+{"timestamp": "2026-08-27T18:22:53", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "food for heart"}}
+{"timestamp": "2026-08-27T18:22:53", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "food for heart"}}
+{"timestamp": "2026-08-27T18:22:53", "level": "INFO", "module": "query", "event": "retrieval_completed", "details": {"query": "food for heart", "chunks_requested": 5, "chunks_retrieved": 5, "chunks_accepted": 5, "latency_sec": 0.059}}
+{"timestamp": "2026-08-27T18:22:54", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 0.677, "input_tokens": 892, "output_tokens": 212, "total_tokens": 1104}}
+{"timestamp": "2026-08-27T18:22:54", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "food for heart", "latency_sec": 0.737}}
+{"timestamp": "2026-08-27T18:22:54", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.738}}
+{"timestamp": "2026-08-27T18:33:42", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-27T18:33:42", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-27T18:33:44", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 18636, "port": 8000}}
+{"timestamp": "2026-08-27T18:33:44", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-27T18:33:44", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 6676, "port": 8501}}
+{"timestamp": "2026-08-27T18:33:44", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-27T18:34:28", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "food for heart"}}
+{"timestamp": "2026-08-27T18:34:28", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "food for heart"}}
+{"timestamp": "2026-08-27T18:34:28", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "food for heart"}}
+{"timestamp": "2026-08-27T18:34:28", "level": "INFO", "module": "query", "event": "retrieval_completed", "details": {"query": "food for heart", "chunks_requested": 5, "chunks_retrieved": 5, "chunks_accepted": 5, "latency_sec": 0.056}}
+{"timestamp": "2026-08-27T18:34:29", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 1.047, "input_tokens": 892, "output_tokens": 194, "total_tokens": 1086}}
+{"timestamp": "2026-08-27T18:34:29", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "food for heart", "latency_sec": 1.104}}
+{"timestamp": "2026-08-27T18:34:29", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.105}}
+{"timestamp": "2026-08-27T18:34:29", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.133}}
+{"timestamp": "2026-08-27T18:34:42", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:34:42", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:34:42", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:34:42", "level": "INFO", "module": "query", "event": "retrieval_completed", "details": {"query": "suggest good food for heart", "chunks_requested": 5, "chunks_retrieved": 5, "chunks_accepted": 5, "latency_sec": 0.015}}
+{"timestamp": "2026-08-27T18:34:43", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "suggest good food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 1.01, "input_tokens": 932, "output_tokens": 300, "total_tokens": 1232}}
+{"timestamp": "2026-08-27T18:34:43", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "suggest good food for heart", "latency_sec": 1.026}}
+{"timestamp": "2026-08-27T18:34:43", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.026}}
+{"timestamp": "2026-08-27T18:34:43", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.051}}
+{"timestamp": "2026-08-27T18:35:05", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-27T18:35:05", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-27T18:51:03", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-27T18:51:03", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-27T18:51:05", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 16692, "port": 8000}}
+{"timestamp": "2026-08-27T18:51:05", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-27T18:51:05", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 15172, "port": 8501}}
+{"timestamp": "2026-08-27T18:51:05", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-27T18:52:37", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:52:37", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:52:37", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:52:38", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "suggest good food for heart", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.062}}
+{"timestamp": "2026-08-27T18:52:38", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "suggest good food for heart", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.29, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:52:39", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "suggest good food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 1.237, "input_tokens": 925, "output_tokens": 271, "total_tokens": 1196}}
+{"timestamp": "2026-08-27T18:52:39", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "suggest good food for heart", "latency_sec": 1.591}}
+{"timestamp": "2026-08-27T18:52:39", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.592}}
+{"timestamp": "2026-08-27T18:52:39", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.611}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "suggest good food for heart"}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "suggest good food for heart", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.014}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "suggest good food for heart", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.278, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "suggest good food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 0.539, "input_tokens": 925, "output_tokens": 279, "total_tokens": 1204}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "suggest good food for heart", "latency_sec": 0.833}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.833}}
+{"timestamp": "2026-08-27T18:54:09", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.838}}
+{"timestamp": "2026-08-27T18:54:27", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "essential nutrients"}}
+{"timestamp": "2026-08-27T18:54:27", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "essential nutrients"}}
+{"timestamp": "2026-08-27T18:54:27", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "essential nutrients"}}
+{"timestamp": "2026-08-27T18:54:27", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "essential nutrients", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.015}}
+{"timestamp": "2026-08-27T18:54:27", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "essential nutrients", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.174, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:54:28", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "essential nutrients", "model": "openai/gpt-oss-20b", "latency_sec": 0.841, "input_tokens": 808, "output_tokens": 300, "total_tokens": 1108}}
+{"timestamp": "2026-08-27T18:54:28", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "essential nutrients", "latency_sec": 1.031}}
+{"timestamp": "2026-08-27T18:54:28", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.032}}
+{"timestamp": "2026-08-27T18:54:28", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.036}}
+{"timestamp": "2026-08-27T18:54:44", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "jackfruit seed hummus"}}
+{"timestamp": "2026-08-27T18:54:44", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "jackfruit seed hummus"}}
+{"timestamp": "2026-08-27T18:54:44", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "jackfruit seed hummus"}}
+{"timestamp": "2026-08-27T18:54:44", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "jackfruit seed hummus", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.014}}
+{"timestamp": "2026-08-27T18:54:44", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "jackfruit seed hummus", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.283, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:54:45", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "jackfruit seed hummus", "model": "openai/gpt-oss-20b", "latency_sec": 0.578, "input_tokens": 984, "output_tokens": 300, "total_tokens": 1284}}
+{"timestamp": "2026-08-27T18:54:45", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "jackfruit seed hummus", "latency_sec": 0.877}}
+{"timestamp": "2026-08-27T18:54:45", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.879}}
+{"timestamp": "2026-08-27T18:54:45", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.888}}
+{"timestamp": "2026-08-27T18:55:01", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "best foods for breakfast"}}
+{"timestamp": "2026-08-27T18:55:01", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "best foods for breakfast"}}
+{"timestamp": "2026-08-27T18:55:01", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "best foods for breakfast"}}
+{"timestamp": "2026-08-27T18:55:01", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "best foods for breakfast", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.018}}
+{"timestamp": "2026-08-27T18:55:01", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "best foods for breakfast", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.449, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:55:03", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "best foods for breakfast", "model": "openai/gpt-oss-20b", "latency_sec": 1.48, "input_tokens": 866, "output_tokens": 300, "total_tokens": 1166}}
+{"timestamp": "2026-08-27T18:55:03", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "best foods for breakfast", "latency_sec": 1.949}}
+{"timestamp": "2026-08-27T18:55:03", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.95}}
+{"timestamp": "2026-08-27T18:55:03", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.954}}
+{"timestamp": "2026-08-27T18:55:21", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:55:21", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:55:21", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:55:21", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.015}}
+{"timestamp": "2026-08-27T18:55:21", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.263, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:55:22", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.423, "input_tokens": 817, "output_tokens": 105, "total_tokens": 922}}
+{"timestamp": "2026-08-27T18:55:22", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 0.702}}
+{"timestamp": "2026-08-27T18:55:22", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.703}}
+{"timestamp": "2026-08-27T18:55:22", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.707}}
+{"timestamp": "2026-08-27T18:56:36", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "Effects of portion size"}}
+{"timestamp": "2026-08-27T18:56:36", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "Effects of portion size"}}
+{"timestamp": "2026-08-27T18:56:36", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "Effects of portion size"}}
+{"timestamp": "2026-08-27T18:56:36", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "Effects of portion size", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.015}}
+{"timestamp": "2026-08-27T18:56:36", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "Effects of portion size", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.261, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:56:37", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "Effects of portion size", "model": "openai/gpt-oss-20b", "latency_sec": 0.742, "input_tokens": 889, "output_tokens": 286, "total_tokens": 1175}}
+{"timestamp": "2026-08-27T18:56:37", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "Effects of portion size", "latency_sec": 1.019}}
+{"timestamp": "2026-08-27T18:56:37", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.02}}
+{"timestamp": "2026-08-27T18:56:37", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.024}}
+{"timestamp": "2026-08-27T18:57:01", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "how to treat cold with guava"}}
+{"timestamp": "2026-08-27T18:57:01", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "how to treat cold with guava"}}
+{"timestamp": "2026-08-27T18:57:01", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "how to treat cold with guava"}}
+{"timestamp": "2026-08-27T18:57:01", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "how to treat cold with guava", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.02}}
+{"timestamp": "2026-08-27T18:57:01", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "how to treat cold with guava", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.346, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:57:02", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "how to treat cold with guava", "model": "openai/gpt-oss-20b", "latency_sec": 0.592, "input_tokens": 943, "output_tokens": 186, "total_tokens": 1129}}
+{"timestamp": "2026-08-27T18:57:02", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "how to treat cold with guava", "latency_sec": 0.961}}
+{"timestamp": "2026-08-27T18:57:02", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.963}}
+{"timestamp": "2026-08-27T18:57:02", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.971}}
+{"timestamp": "2026-08-27T18:57:22", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-08-27T18:57:22", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-08-27T18:57:22", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-08-27T18:57:22", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "fiber in lentils and vegetables", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.016}}
+{"timestamp": "2026-08-27T18:57:22", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "fiber in lentils and vegetables", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.274, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:57:23", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "fiber in lentils and vegetables", "model": "openai/gpt-oss-20b", "latency_sec": 0.832, "input_tokens": 1025, "output_tokens": 300, "total_tokens": 1325}}
+{"timestamp": "2026-08-27T18:57:23", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "fiber in lentils and vegetables", "latency_sec": 1.124}}
+{"timestamp": "2026-08-27T18:57:23", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.124}}
+{"timestamp": "2026-08-27T18:57:23", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.129}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.013}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.233, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.304, "input_tokens": 817, "output_tokens": 110, "total_tokens": 927}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 0.552}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.554}}
+{"timestamp": "2026-08-27T18:57:57", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.563}}
+{"timestamp": "2026-08-27T19:05:02", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-27T19:05:02", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-27T19:05:12", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-27T19:05:12", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-27T19:05:14", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 7800, "port": 8000}}
+{"timestamp": "2026-08-27T19:05:14", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-27T19:05:14", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 20096, "port": 8501}}
+{"timestamp": "2026-08-27T19:05:14", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-27T19:06:19", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:19", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:19", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:19", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.067}}
+{"timestamp": "2026-08-27T19:06:19", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.239, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:06:20", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 1.043, "input_tokens": 817, "output_tokens": 152, "total_tokens": 969}}
+{"timestamp": "2026-08-27T19:06:20", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 1.35}}
+{"timestamp": "2026-08-27T19:06:20", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.351}}
+{"timestamp": "2026-08-27T19:06:20", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.364}}
+{"timestamp": "2026-08-27T19:06:28", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:28", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:28", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:06:28", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.018}}
+{"timestamp": "2026-08-27T19:06:29", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the dietary guidelines", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.232, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:06:29", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.752, "input_tokens": 803, "output_tokens": 300, "total_tokens": 1103}}
+{"timestamp": "2026-08-27T19:06:29", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the dietary guidelines", "latency_sec": 1.004}}
+{"timestamp": "2026-08-27T19:06:29", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.005}}
+{"timestamp": "2026-08-27T19:06:29", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.011}}
+{"timestamp": "2026-08-27T19:19:03", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-27T19:19:03", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-27T19:19:38", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-27T19:19:38", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-27T19:19:40", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 12896, "port": 8000}}
+{"timestamp": "2026-08-27T19:19:40", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-27T19:19:40", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 9796, "port": 8501}}
+{"timestamp": "2026-08-27T19:19:40", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-27T19:20:23", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:20:23", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:20:23", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:20:23", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.071}}
+{"timestamp": "2026-08-27T19:20:23", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.234, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:20:24", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.869, "input_tokens": 817, "output_tokens": 300, "total_tokens": 1117}}
+{"timestamp": "2026-08-27T19:20:24", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 1.175}}
+{"timestamp": "2026-08-27T19:20:24", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.176}}
+{"timestamp": "2026-08-27T19:20:24", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.191}}
+{"timestamp": "2026-08-27T19:22:16", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-27T19:22:16", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-27T19:22:44", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-27T19:22:44", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-27T19:22:46", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 12992, "port": 8000}}
+{"timestamp": "2026-08-27T19:22:46", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-27T19:22:46", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 17692, "port": 8501}}
+{"timestamp": "2026-08-27T19:22:46", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-27T19:23:30", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:23:30", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:23:30", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:23:30", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.077}}
+{"timestamp": "2026-08-27T19:23:30", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 8, "latency_sec": 0.234, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:23:31", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.981, "input_tokens": 1157, "output_tokens": 138, "total_tokens": 1295}}
+{"timestamp": "2026-08-27T19:23:31", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 1.294}}
+{"timestamp": "2026-08-27T19:23:31", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 1.294}}
+{"timestamp": "2026-08-27T19:23:31", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.312}}
+{"timestamp": "2026-08-27T19:24:08", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:08", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:08", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the 15 dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:08", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the 15 dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.02}}
+{"timestamp": "2026-08-27T19:24:08", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the 15 dietary guidelines", "candidates": 15, "selected_chunks": 8, "latency_sec": 0.215, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:24:09", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the 15 dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.604, "input_tokens": 1157, "output_tokens": 138, "total_tokens": 1295}}
+{"timestamp": "2026-08-27T19:24:09", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the 15 dietary guidelines", "latency_sec": 0.842}}
+{"timestamp": "2026-08-27T19:24:09", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.842}}
+{"timestamp": "2026-08-27T19:24:09", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.848}}
+{"timestamp": "2026-08-27T19:24:18", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:18", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:18", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "What are the dietary guidelines"}}
+{"timestamp": "2026-08-27T19:24:18", "level": "INFO", "module": "query", "event": "retrieval_finished", "details": {"query": "What are the dietary guidelines", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.025}}
+{"timestamp": "2026-08-27T19:24:18", "level": "INFO", "module": "query", "event": "reranking_finished", "details": {"query": "What are the dietary guidelines", "candidates": 15, "selected_chunks": 8, "latency_sec": 0.244, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-27T19:24:19", "level": "INFO", "module": "main", "event": "generation_completed", "details": {"query": "What are the dietary guidelines", "model": "openai/gpt-oss-20b", "latency_sec": 0.572, "input_tokens": 1161, "output_tokens": 300, "total_tokens": 1461}}
+{"timestamp": "2026-08-27T19:24:19", "level": "INFO", "module": "main", "event": "rag_completed", "details": {"query": "What are the dietary guidelines", "latency_sec": 0.843}}
+{"timestamp": "2026-08-27T19:24:19", "level": "INFO", "module": "api", "event": "api_request_completed", "details": {"endpoint": "/ask", "latency_sec": 0.845}}
+{"timestamp": "2026-08-27T19:24:19", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.854}}
+{"timestamp": "2026-08-27T19:24:42", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-27T19:24:42", "level": "INFO", "module": "__main__", "event": "frontend_stopping", "details": {"pid": 17692}}
+{"timestamp": "2026-08-27T19:24:42", "level": "INFO", "module": "__main__", "event": "application_stopped"}

@@ -1,88 +1,263 @@
 import os
-import pymupdf  
+import time
+import pymupdf
 import numpy as np
 from PIL import Image, ImageOps
 from rapidocr_onnxruntime import RapidOCR
+from logging_config import get_logger
+
+logger = get_logger(__name__)
 
 ocr_engine = RapidOCR()
+
 
 def parse_text(file_path: str) -> str:
     with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         return f.read()
 
+
 def parse_image(file_path: str) -> str:
+    start_time = time.perf_counter()
+
     try:
         with Image.open(file_path) as img:
             img = ImageOps.exif_transpose(img)
-            
             img = img.convert("RGB")
-            
             img_np = np.array(img)
 
         result, _ = ocr_engine(img_np)
-        
+
         if result:
             lines = [line[1] for line in result]
             extracted_text = "\n".join(lines).strip()
-            print(f"  [OCR SUCCESS] '{file_path}': Extracted {len(extracted_text)} characters.")
+
+            logger.info(
+                "ocr_completed",
+                extra={
+                    "details": {
+                        "filename": os.path.basename(file_path),
+                        "characters_extracted": len(extracted_text),
+                        "duration_seconds": round(
+                            time.perf_counter() - start_time, 3
+                        )
+                    }
+                }
+            )
+
             return extracted_text
-        else:
-            print(f"  [OCR EMPTY] '{file_path}': RapidOCR found no text.")
-            return ""
+
+        logger.warning(
+            "ocr_empty",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "duration_seconds": round(
+                        time.perf_counter() - start_time, 3
+                    )
+                }
+            }
+        )
+
+        return ""
 
     except Exception as e:
-        print(f"  [OCR ERROR] Failed to process '{file_path}': {e}")
+        logger.exception(
+            "ocr_failed",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "error": str(e),
+                    "duration_seconds": round(
+                        time.perf_counter() - start_time, 3
+                    )
+                }
+            }
+        )
         return ""
+
 
 def parse_pdf(file_path: str) -> str:
-    """
-    Extracts digital text from PDFs.
-    If digital text is missing (scanned document),
-    renders pages as images and passes raw bytes to RapidOCR.
-    """
-    text = ""
+    start_time = time.perf_counter()
+    text_parts = []
+    ocr_pages = 0
+
     try:
-        doc = pymupdf.open(file_path)
-        for page in doc:
-            page_text = page.get_text()
-            if page_text and page_text.strip():
-                text += page_text + "\n"
-            else:
-                pix = page.get_pixmap()
-                img_bytes = pix.tobytes("png")
-                
-                result, _ = ocr_engine(img_bytes)
-                
-                if result:
-                    lines = [line[1] for line in result]
-                    text += "\n".join(lines) + "\n"
-                    
-        return text.strip()
+        with pymupdf.open(file_path) as doc:
+            total_pages = len(doc)
+
+            for page in doc:
+                page_text = page.get_text()
+
+                if page_text and page_text.strip():
+                    text_parts.append(page_text)
+                else:
+                    ocr_pages += 1
+
+                    pix = page.get_pixmap()
+                    img_bytes = pix.tobytes("png")
+
+                    result, _ = ocr_engine(img_bytes)
+
+                    if result:
+                        lines = [line[1] for line in result]
+                        text_parts.append("\n".join(lines))
+
+        extracted_text = "\n".join(text_parts).strip()
+
+        logger.info(
+            "pdf_parsing_completed",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "pages": total_pages,
+                    "ocr_pages": ocr_pages,
+                    "characters_extracted": len(extracted_text),
+                    "duration_seconds": round(
+                        time.perf_counter() - start_time, 3
+                    )
+                }
+            }
+        )
+
+        return extracted_text
+
     except Exception as e:
-        print(f"Error reading PDF {file_path}: {e}")
-        return ""
-    
-def parse_document(file_path: str) -> str:
-    ext = os.path.splitext(file_path)[1].lower()
-    
-    if ext == ".txt":
-        return parse_text(file_path)
-    elif ext in [".png", ".jpg", ".jpeg"]:
-        return parse_image(file_path)
-    elif ext == ".pdf":
-        return parse_pdf(file_path)
-    else:
-        print(f"Unsupported file extension: {ext} for file {file_path}")
+        logger.exception(
+            "pdf_parsing_failed",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "error": str(e),
+                    "duration_seconds": round(
+                        time.perf_counter() - start_time, 3
+                    )
+                }
+            }
+        )
         return ""
 
-if __name__ == "__main__":
-    test_file_path = "data/bucket_2/food_4.jpeg" 
+
+def parse_document(file_path: str) -> str:
+    ext = os.path.splitext(file_path)[1].lower()
+
+    try:
+        if ext == ".txt":
+            return parse_text(file_path)
+
+        if ext in [".png", ".jpg", ".jpeg"]:
+            return parse_image(file_path)
+
+        if ext == ".pdf":
+            return parse_pdf(file_path)
+
+        logger.warning(
+            "unsupported_file",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "extension": ext
+                }
+            }
+        )
+
+        return ""
+
+    except Exception as e:
+        logger.exception(
+            "document_parsing_failed",
+            extra={
+                "details": {
+                    "filename": os.path.basename(file_path),
+                    "error": str(e)
+                }
+            }
+        )
+        return ""
+# import os
+# import pymupdf  
+# import numpy as np
+# from PIL import Image, ImageOps
+# from rapidocr_onnxruntime import RapidOCR
+
+# ocr_engine = RapidOCR()
+
+# def parse_text(file_path: str) -> str:
+#     with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+#         return f.read()
+
+# def parse_image(file_path: str) -> str:
+#     try:
+#         with Image.open(file_path) as img:
+#             img = ImageOps.exif_transpose(img)
+            
+#             img = img.convert("RGB")
+            
+#             img_np = np.array(img)
+
+#         result, _ = ocr_engine(img_np)
+        
+#         if result:
+#             lines = [line[1] for line in result]
+#             extracted_text = "\n".join(lines).strip()
+#             print(f"  [OCR SUCCESS] '{file_path}': Extracted {len(extracted_text)} characters.")
+#             return extracted_text
+#         else:
+#             print(f"  [OCR EMPTY] '{file_path}': RapidOCR found no text.")
+#             return ""
+
+#     except Exception as e:
+#         print(f"  [OCR ERROR] Failed to process '{file_path}': {e}")
+#         return ""
+
+# def parse_pdf(file_path: str) -> str:
+#     """
+#     Extracts digital text from PDFs.
+#     If digital text is missing (scanned document),
+#     renders pages as images and passes raw bytes to RapidOCR.
+#     """
+#     text = ""
+#     try:
+#         doc = pymupdf.open(file_path)
+#         for page in doc:
+#             page_text = page.get_text()
+#             if page_text and page_text.strip():
+#                 text += page_text + "\n"
+#             else:
+#                 pix = page.get_pixmap()
+#                 img_bytes = pix.tobytes("png")
+                
+#                 result, _ = ocr_engine(img_bytes)
+                
+#                 if result:
+#                     lines = [line[1] for line in result]
+#                     text += "\n".join(lines) + "\n"
+                    
+#         return text.strip()
+#     except Exception as e:
+#         print(f"Error reading PDF {file_path}: {e}")
+#         return ""
     
-    if os.path.exists(test_file_path):
-        print(f"Parsing file: {test_file_path} ...\n")
-        output = parse_document(test_file_path)
-        print("--- EXTRACTED TEXT START ---")
-        print(output)
-        print("\n--- EXTRACTED TEXT END ---")
-    else:
-        print(f"Please put a test file at '{test_file_path}' to run a quick test!")
+# def parse_document(file_path: str) -> str:
+#     ext = os.path.splitext(file_path)[1].lower()
+    
+#     if ext == ".txt":
+#         return parse_text(file_path)
+#     elif ext in [".png", ".jpg", ".jpeg"]:
+#         return parse_image(file_path)
+#     elif ext == ".pdf":
+#         return parse_pdf(file_path)
+#     else:
+#         print(f"Unsupported file extension: {ext} for file {file_path}")
+#         return ""
+
+# if __name__ == "__main__":
+#     test_file_path = "data/bucket_2/food_4.jpeg" 
+    
+#     if os.path.exists(test_file_path):
+#         print(f"Parsing file: {test_file_path} ...\n")
+#         output = parse_document(test_file_path)
+#         print("--- EXTRACTED TEXT START ---")
+#         print(output)
+#         print("\n--- EXTRACTED TEXT END ---")
+#     else:
+#         print(f"Please put a test file at '{test_file_path}' to run a quick test!")
