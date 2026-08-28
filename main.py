@@ -40,25 +40,16 @@ def ask_rag(user_query: str) -> dict:
     )
 
     try:
-        # ---------------- RETRIEVAL ----------------
-        retrieval_start = time.perf_counter()
-
         chunks = retrieve_context(
             user_query=clean_query
         )
-
-        retrieval_time = time.perf_counter() - retrieval_start
 
         if not chunks:
             logger.warning(
                 "no_relevant_chunks",
                 extra={
                     "details": {
-                        "query": clean_query,
-                        "latency_sec": round(
-                            retrieval_time,
-                            3
-                        )
+                        "query": clean_query
                     }
                 }
             )
@@ -143,7 +134,7 @@ def ask_rag(user_query: str) -> dict:
             })
 
         logger.info(
-            "generation_completed",
+            f"generation_completed | latency_sec={generation_time:.3f}",
             extra={
                 "details": generation_details
             }
@@ -155,7 +146,7 @@ def ask_rag(user_query: str) -> dict:
         )
 
         logger.info(
-            "rag_completed",
+            f"rag_completed | latency_sec={total_time:.3f}",
             extra={
                 "details": {
                     "query": clean_query,
@@ -175,6 +166,7 @@ def ask_rag(user_query: str) -> dict:
         }
 
     except Exception as e:
+
         logger.exception(
             "rag_failed",
             extra={

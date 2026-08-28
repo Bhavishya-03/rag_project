@@ -14,7 +14,10 @@ logger = get_logger(__name__)
 
 app = FastAPI(
     title="🥗 Nutri-Query RAG API",
-    description="REST API for querying nutrition documents, PDFs, and images with automatic Swagger documentation.",
+    description=(
+        "REST API for querying nutrition documents, PDFs, "
+        "and images with automatic Swagger documentation."
+    ),
     version="1.0.0"
 )
 
@@ -35,6 +38,7 @@ class ParseTestRequest(BaseModel):
 @app.get("/", summary="Health Check")
 def health_check():
     """Verify that the API server is running."""
+
     return {
         "status": "healthy",
         "message": "Nutri-Query API is up and running."
@@ -47,17 +51,17 @@ def health_check():
     summary="Query RAG Pipeline"
 )
 def query_rag_endpoint(request: QueryRequest):
-    """
-    Send a question to the RAG pipeline.
-    Returns the generated answer along with retrieved sources grouped by bucket.
-    """
+
     start_time = time.perf_counter()
 
-    if not request.query.strip():
+    query = request.query.strip()
+
+    if not query:
         logger.warning(
             "invalid_query",
             extra={
                 "details": {
+                    "endpoint": "/ask",
                     "reason": "empty_query"
                 }
             }
@@ -73,21 +77,25 @@ def query_rag_endpoint(request: QueryRequest):
         extra={
             "details": {
                 "endpoint": "/ask",
-                "query": request.query.strip()
+                "query": query
             }
         }
     )
 
     try:
-        result = ask_rag(request.query)
+
+        result = ask_rag(query)
+
+        latency = time.perf_counter() - start_time
 
         logger.info(
-            "api_request_completed",
+            f"api_request_completed | latency_sec={latency:.3f}",
             extra={
                 "details": {
                     "endpoint": "/ask",
+                    "query": query,
                     "latency_sec": round(
-                        time.perf_counter() - start_time,
+                        latency,
                         3
                     )
                 }
@@ -97,15 +105,18 @@ def query_rag_endpoint(request: QueryRequest):
         return result
 
     except Exception as e:
+
+        latency = time.perf_counter() - start_time
+
         logger.exception(
             "api_request_failed",
             extra={
                 "details": {
                     "endpoint": "/ask",
-                    "query": request.query.strip(),
+                    "query": query,
                     "error": str(e),
                     "latency_sec": round(
-                        time.perf_counter() - start_time,
+                        latency,
                         3
                     )
                 }
@@ -123,18 +134,19 @@ def query_rag_endpoint(request: QueryRequest):
     summary="Test Document Parser"
 )
 def parse_test_endpoint(request: ParseTestRequest):
-    """
-    Test image OCR or PDF text extraction on a specific file path.
-    """
+
     start_time = time.perf_counter()
 
     if not os.path.exists(request.file_path):
+
         logger.warning(
             "file_not_found",
             extra={
                 "details": {
                     "endpoint": "/parse-test",
-                    "filename": os.path.basename(request.file_path)
+                    "filename": os.path.basename(
+                        request.file_path
+                    )
                 }
             }
         )
@@ -145,18 +157,26 @@ def parse_test_endpoint(request: ParseTestRequest):
         )
 
     try:
+
         extracted_text = parse_document(
             request.file_path
         )
 
+        latency = time.perf_counter() - start_time
+
         logger.info(
-            "parse_test_completed",
+            f"parse_test_completed | latency_sec={latency:.3f}",
             extra={
                 "details": {
-                    "filename": os.path.basename(request.file_path),
-                    "characters_extracted": len(extracted_text),
+                    "endpoint": "/parse-test",
+                    "filename": os.path.basename(
+                        request.file_path
+                    ),
+                    "characters_extracted": len(
+                        extracted_text
+                    ),
                     "latency_sec": round(
-                        time.perf_counter() - start_time,
+                        latency,
                         3
                     )
                 }
@@ -165,19 +185,27 @@ def parse_test_endpoint(request: ParseTestRequest):
 
         return {
             "file_path": request.file_path,
-            "extracted_character_count": len(extracted_text),
+            "extracted_character_count": len(
+                extracted_text
+            ),
             "text_preview": extracted_text[:500]
         }
 
     except Exception as e:
+
+        latency = time.perf_counter() - start_time
+
         logger.exception(
             "parse_test_failed",
             extra={
                 "details": {
-                    "filename": os.path.basename(request.file_path),
+                    "endpoint": "/parse-test",
+                    "filename": os.path.basename(
+                        request.file_path
+                    ),
                     "error": str(e),
                     "latency_sec": round(
-                        time.perf_counter() - start_time,
+                        latency,
                         3
                     )
                 }
