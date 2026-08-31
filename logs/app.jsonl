@@ -1216,3 +1216,6 @@
 {"timestamp": "2026-08-31T18:12:21", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.154", "details": {"query": "Which foods in the documents contain antioxidants?", "latency_sec": 1.154}}
 {"timestamp": "2026-08-31T18:12:21", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.155", "details": {"endpoint": "/ask", "query": "Which foods in the documents contain antioxidants?", "latency_sec": 1.155}}
 {"timestamp": "2026-08-31T18:12:21", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.159}}
+{"timestamp": "2026-08-31T18:19:36", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-31T18:19:36", "level": "INFO", "module": "__main__", "event": "frontend_stopping", "details": {"pid": 12876}}
+{"timestamp": "2026-08-31T18:19:36", "level": "INFO", "module": "__main__", "event": "application_stopped"}
