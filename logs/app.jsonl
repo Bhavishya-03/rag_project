@@ -698,3 +698,55 @@
 {"timestamp": "2026-08-28T15:16:58", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.944}}
 {"timestamp": "2026-08-28T15:19:39", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
 {"timestamp": "2026-08-28T15:19:39", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-31T12:28:06", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-31T12:28:06", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-31T12:28:08", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 17512, "port": 8000}}
+{"timestamp": "2026-08-31T12:28:08", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-31T12:28:08", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 11700, "port": 8501}}
+{"timestamp": "2026-08-31T12:28:08", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-31T12:29:07", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "Suggest healthy foods for heart"}}
+{"timestamp": "2026-08-31T12:29:07", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "Suggest healthy foods for heart"}}
+{"timestamp": "2026-08-31T12:29:07", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "Suggest healthy foods for heart"}}
+{"timestamp": "2026-08-31T12:29:08", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.307", "details": {"query": "Suggest healthy foods for heart", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.307}}
+{"timestamp": "2026-08-31T12:29:08", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.755", "details": {"query": "Suggest healthy foods for heart", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.755, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-31T12:29:10", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.292", "details": {"query": "Suggest healthy foods for heart", "model": "openai/gpt-oss-20b", "latency_sec": 1.292, "input_tokens": 889, "output_tokens": 300, "total_tokens": 1189}}
+{"timestamp": "2026-08-31T12:29:10", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=2.356", "details": {"query": "Suggest healthy foods for heart", "latency_sec": 2.356}}
+{"timestamp": "2026-08-31T12:29:10", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=2.357", "details": {"endpoint": "/ask", "query": "Suggest healthy foods for heart", "latency_sec": 2.357}}
+{"timestamp": "2026-08-31T12:29:10", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 2.374}}
+{"timestamp": "2026-08-31T12:29:54", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-31T12:29:54", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-08-31T12:30:21", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-08-31T12:30:21", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-08-31T12:30:23", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 8484, "port": 8000}}
+{"timestamp": "2026-08-31T12:30:23", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-08-31T12:30:23", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 17632, "port": 8501}}
+{"timestamp": "2026-08-31T12:30:23", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-08-31T12:31:07", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "Suggest healthy food for heart"}}
+{"timestamp": "2026-08-31T12:31:07", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "Suggest healthy food for heart"}}
+{"timestamp": "2026-08-31T12:31:07", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "Suggest healthy food for heart"}}
+{"timestamp": "2026-08-31T12:31:07", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.073", "details": {"query": "Suggest healthy food for heart", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.073}}
+{"timestamp": "2026-08-31T12:31:08", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.266", "details": {"query": "Suggest healthy food for heart", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.266, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-31T12:31:09", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.911", "details": {"query": "Suggest healthy food for heart", "model": "openai/gpt-oss-20b", "latency_sec": 0.911, "input_tokens": 889, "output_tokens": 270, "total_tokens": 1159}}
+{"timestamp": "2026-08-31T12:31:09", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.252", "details": {"query": "Suggest healthy food for heart", "latency_sec": 1.252}}
+{"timestamp": "2026-08-31T12:31:09", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.253", "details": {"endpoint": "/ask", "query": "Suggest healthy food for heart", "latency_sec": 1.253}}
+{"timestamp": "2026-08-31T12:31:09", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.274}}
+{"timestamp": "2026-08-31T12:32:34", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "what are the functions of food?"}}
+{"timestamp": "2026-08-31T12:32:34", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "what are the functions of food?"}}
+{"timestamp": "2026-08-31T12:32:34", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "what are the functions of food?"}}
+{"timestamp": "2026-08-31T12:32:34", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.024", "details": {"query": "what are the functions of food?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.024}}
+{"timestamp": "2026-08-31T12:32:34", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.200", "details": {"query": "what are the functions of food?", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.2, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-31T12:32:35", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.761", "details": {"query": "what are the functions of food?", "model": "openai/gpt-oss-20b", "latency_sec": 0.761, "input_tokens": 738, "output_tokens": 274, "total_tokens": 1012}}
+{"timestamp": "2026-08-31T12:32:35", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.987", "details": {"query": "what are the functions of food?", "latency_sec": 0.987}}
+{"timestamp": "2026-08-31T12:32:35", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.988", "details": {"endpoint": "/ask", "query": "what are the functions of food?", "latency_sec": 0.988}}
+{"timestamp": "2026-08-31T12:32:35", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.016}}
+{"timestamp": "2026-08-31T12:36:43", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "what are functions of food?"}}
+{"timestamp": "2026-08-31T12:36:43", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "what are functions of food?"}}
+{"timestamp": "2026-08-31T12:36:43", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "what are functions of food?"}}
+{"timestamp": "2026-08-31T12:36:43", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.015", "details": {"query": "what are functions of food?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.015}}
+{"timestamp": "2026-08-31T12:36:43", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.229", "details": {"query": "what are functions of food?", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.229, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-08-31T12:36:44", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.727", "details": {"query": "what are functions of food?", "model": "openai/gpt-oss-20b", "latency_sec": 0.727, "input_tokens": 737, "output_tokens": 266, "total_tokens": 1003}}
+{"timestamp": "2026-08-31T12:36:44", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.973", "details": {"query": "what are functions of food?", "latency_sec": 0.973}}
+{"timestamp": "2026-08-31T12:36:44", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.974", "details": {"endpoint": "/ask", "query": "what are functions of food?", "latency_sec": 0.974}}
+{"timestamp": "2026-08-31T12:36:44", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.979}}
+{"timestamp": "2026-08-31T12:37:15", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-08-31T12:37:15", "level": "INFO", "module": "__main__", "event": "application_stopped"}

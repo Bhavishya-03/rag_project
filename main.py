@@ -104,7 +104,7 @@ def ask_rag(user_query: str) -> dict:
             ],
             reasoning_effort="low",
             include_reasoning=False,
-            max_completion_tokens=300,
+            max_completion_tokens=500,
             temperature=0.1
         )
 
