@@ -15,7 +15,6 @@ st.set_page_config(
 )
 
 
-# CSS
 st.markdown(
     """
     <style>
@@ -50,7 +49,6 @@ st.markdown(
 )
 
 
-# Initialize Session State
 if "selected_bucket" not in st.session_state:
     st.session_state.selected_bucket = None
 
@@ -126,7 +124,6 @@ def render_sources(sources_dict: dict):
                     )
 
 
-# Sidebar Workspace
 with st.sidebar:
 
     st.subheader("📁 Knowledge Base")
@@ -196,7 +193,6 @@ with st.sidebar:
 
                     st.rerun()
 
-            # Display document names only
             if st.session_state.selected_bucket == bucket:
 
                 with st.expander(
@@ -212,12 +208,10 @@ with st.sidebar:
                 st.markdown("---")
 
 
-# Main Workspace
 st.title("🥗 NUTRI-QUERY RAG")
 st.caption("Food & Nutrition Assistant")
 
 
-# Render Chat History
 for message in st.session_state.messages:
 
     avatar = (
@@ -244,7 +238,6 @@ for message in st.session_state.messages:
             )
 
 
-# Chat Input Handler
 if prompt := st.chat_input(
     "Ask your nutrition or document query..."
 ):
@@ -420,10 +413,8 @@ if prompt := st.chat_input(
 
             st.markdown(answer)
 
-            # Keep source image display functionality
             render_sources(sources)
 
-    # Save assistant response
     st.session_state.messages.append(
         {
             "role": "assistant",

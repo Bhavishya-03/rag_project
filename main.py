@@ -62,7 +62,6 @@ def ask_rag(user_query: str) -> dict:
                 "sources": {}
             }
 
-        # ---------------- SOURCE COLLECTION ----------------
         sources_by_bucket = {}
 
         for chunk in chunks:
@@ -88,13 +87,11 @@ def ask_rag(user_query: str) -> dict:
             for bucket, files in sources_by_bucket.items()
         }
 
-        # ---------------- PROMPT CREATION ----------------
         prompt = format_prompt(
             user_query,
             chunks
         )
 
-        # ---------------- GROQ LLM GENERATION ----------------
         generation_start = time.perf_counter()
 
         response = groq_client.chat.completions.create(
@@ -140,7 +137,6 @@ def ask_rag(user_query: str) -> dict:
             }
         )
 
-        # ---------------- TOTAL RAG TIME ----------------
         total_time = (
             time.perf_counter() - total_start
         )

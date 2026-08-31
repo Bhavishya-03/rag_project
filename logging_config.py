@@ -22,7 +22,6 @@ class JsonFormatter(logging.Formatter):
             "event": record.getMessage()
         }
 
-        # Add optional structured fields
         if hasattr(record, "details"):
             log_data["details"] = record.details
 
@@ -34,14 +33,12 @@ def get_logger(name: str) -> logging.Logger:
 
     logger = logging.getLogger(name)
 
-    # Prevent duplicate handlers if the function is called multiple times.
     if logger.handlers:
         return logger
 
     logger.setLevel(logging.INFO)
     logger.propagate = False
 
-    # ---------------- CONSOLE HANDLER ----------------
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
 
@@ -51,7 +48,6 @@ def get_logger(name: str) -> logging.Logger:
 
     console_handler.setFormatter(console_formatter)
 
-    # ---------------- JSON FILE HANDLER ----------------
     file_handler = RotatingFileHandler(
         LOG_FILE,
         maxBytes=5 * 1024 * 1024,
