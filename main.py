@@ -204,4 +204,6 @@ if __name__ == "__main__":
         if not query.strip():
             continue
 
-        ask_rag(query)
+        result=ask_rag(query)
+        print("\n🤖 Answer:")
+        print(result["answer"])

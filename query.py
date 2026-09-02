@@ -192,6 +192,12 @@ Guidelines:
 - Synthesize facts logically from the text instead of requiring exact word matches.
 - Format responses using clear markdown bullet points.
 - If the requested topic is truly not mentioned in any form, state that context is missing.
+# =====================================================================================================
+# - When the answer is explicitly available in the context, use the information as stated in the source.
+# - Do not rename, merge, reorder, or replace stages, categories, numbers, or terminology from the source.
+# - For lists, workflows, steps, guidelines, and sequences, preserve the original order and wording as closely as possible.
+# - Do not add information that is not explicitly supported by the context.
+# - Only synthesize information when the answer cannot be directly extracted from a single or combined source.
 
 CONTEXT:
 {context_str}
