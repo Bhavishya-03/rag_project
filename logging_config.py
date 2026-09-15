@@ -12,7 +12,7 @@ os.makedirs(LOG_DIR, exist_ok=True)
 
 
 class JsonFormatter(logging.Formatter):
-    """Formats log records as one JSON object per line."""
+    """Convert each log record into a structured JSON object."""
 
     def format(self, record):
         log_data = {
@@ -29,7 +29,7 @@ class JsonFormatter(logging.Formatter):
 
 
 def get_logger(name: str) -> logging.Logger:
-    """Returns a centrally configured application logger."""
+    """Create and return a configured logger for whichever module calls it."""
 
     logger = logging.getLogger(name)
 
