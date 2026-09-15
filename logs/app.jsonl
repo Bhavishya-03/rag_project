@@ -1497,3 +1497,29 @@
 {"timestamp": "2026-09-02T11:40:50", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.307}}
 {"timestamp": "2026-09-02T12:06:01", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
 {"timestamp": "2026-09-02T12:06:01", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-09-10T18:12:03", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-09-10T18:12:03", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-09-10T18:12:05", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 20572, "port": 8000}}
+{"timestamp": "2026-09-10T18:12:05", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-09-10T18:12:05", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 21460, "port": 8501}}
+{"timestamp": "2026-09-10T18:12:05", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-09-10T18:13:18", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "suggest healthy fods for heaRT"}}
+{"timestamp": "2026-09-10T18:13:18", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "suggest healthy fods for heaRT"}}
+{"timestamp": "2026-09-10T18:13:18", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "suggest healthy fods for heaRT"}}
+{"timestamp": "2026-09-10T18:13:18", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.419", "details": {"query": "suggest healthy fods for heaRT", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.419}}
+{"timestamp": "2026-09-10T18:13:19", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.764", "details": {"query": "suggest healthy fods for heaRT", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.764, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-10T18:13:20", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.191", "details": {"query": "suggest healthy fods for heaRT", "model": "openai/gpt-oss-20b", "latency_sec": 1.191, "input_tokens": 1085, "output_tokens": 262, "total_tokens": 1347}}
+{"timestamp": "2026-09-10T18:13:20", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=2.376", "details": {"query": "suggest healthy fods for heaRT", "latency_sec": 2.376}}
+{"timestamp": "2026-09-10T18:13:20", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=2.377", "details": {"endpoint": "/ask", "query": "suggest healthy fods for heaRT", "latency_sec": 2.377}}
+{"timestamp": "2026-09-10T18:13:20", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 2.394}}
+{"timestamp": "2026-09-10T18:14:04", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-09-10T18:14:04", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-09-10T18:14:04", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "fiber in lentils and vegetables"}}
+{"timestamp": "2026-09-10T18:14:04", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.020", "details": {"query": "fiber in lentils and vegetables", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.02}}
+{"timestamp": "2026-09-10T18:14:04", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.313", "details": {"query": "fiber in lentils and vegetables", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.313, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-10T18:14:05", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.702", "details": {"query": "fiber in lentils and vegetables", "model": "openai/gpt-oss-20b", "latency_sec": 0.702, "input_tokens": 1134, "output_tokens": 212, "total_tokens": 1346}}
+{"timestamp": "2026-09-10T18:14:05", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.037", "details": {"query": "fiber in lentils and vegetables", "latency_sec": 1.037}}
+{"timestamp": "2026-09-10T18:14:05", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.037", "details": {"endpoint": "/ask", "query": "fiber in lentils and vegetables", "latency_sec": 1.037}}
+{"timestamp": "2026-09-10T18:14:05", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.042}}
+{"timestamp": "2026-09-10T18:56:55", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-09-10T18:56:55", "level": "INFO", "module": "__main__", "event": "application_stopped"}
