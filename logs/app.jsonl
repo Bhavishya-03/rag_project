@@ -1523,3 +1523,377 @@
 {"timestamp": "2026-09-10T18:14:05", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.042}}
 {"timestamp": "2026-09-10T18:56:55", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
 {"timestamp": "2026-09-10T18:56:55", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-09-16T14:12:21", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-09-16T14:12:21", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-09-16T14:12:23", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 12716, "port": 8000}}
+{"timestamp": "2026-09-16T14:12:23", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-09-16T14:12:23", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 9872, "port": 8501}}
+{"timestamp": "2026-09-16T14:12:23", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-09-16T14:13:55", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "healthy body + healthy mind equals to what?"}}
+{"timestamp": "2026-09-16T14:13:55", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "healthy body + healthy mind equals to what?"}}
+{"timestamp": "2026-09-16T14:13:55", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "healthy body + healthy mind equals to what?"}}
+{"timestamp": "2026-09-16T14:13:56", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.447", "details": {"query": "healthy body + healthy mind equals to what?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.447}}
+{"timestamp": "2026-09-16T14:13:56", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.709", "details": {"query": "healthy body + healthy mind equals to what?", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.709, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:13:57", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.120", "details": {"query": "healthy body + healthy mind equals to what?", "model": "openai/gpt-oss-20b", "latency_sec": 1.12, "input_tokens": 975, "output_tokens": 187, "total_tokens": 1162}}
+{"timestamp": "2026-09-16T14:13:57", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=2.278", "details": {"query": "healthy body + healthy mind equals to what?", "latency_sec": 2.278}}
+{"timestamp": "2026-09-16T14:13:57", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=2.279", "details": {"endpoint": "/ask", "query": "healthy body + healthy mind equals to what?", "latency_sec": 2.279}}
+{"timestamp": "2026-09-16T14:13:57", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 2.294}}
+{"timestamp": "2026-09-16T14:17:39", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "calories in sugar and jaggery?"}}
+{"timestamp": "2026-09-16T14:17:39", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "calories in sugar and jaggery?"}}
+{"timestamp": "2026-09-16T14:17:39", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "calories in sugar and jaggery?"}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.031", "details": {"query": "calories in sugar and jaggery?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.031}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.367", "details": {"query": "calories in sugar and jaggery?", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.367, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.578", "details": {"query": "calories in sugar and jaggery?", "model": "openai/gpt-oss-20b", "latency_sec": 0.578, "input_tokens": 1151, "output_tokens": 55, "total_tokens": 1206}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.979", "details": {"query": "calories in sugar and jaggery?", "latency_sec": 0.979}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.980", "details": {"endpoint": "/ask", "query": "calories in sugar and jaggery?", "latency_sec": 0.98}}
+{"timestamp": "2026-09-16T14:17:40", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.987}}
+{"timestamp": "2026-09-16T14:18:23", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "food composition at  a glance"}}
+{"timestamp": "2026-09-16T14:18:23", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "food composition at  a glance"}}
+{"timestamp": "2026-09-16T14:18:23", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "food composition at  a glance"}}
+{"timestamp": "2026-09-16T14:18:23", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.032", "details": {"query": "food composition at  a glance", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.032}}
+{"timestamp": "2026-09-16T14:18:24", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.340", "details": {"query": "food composition at  a glance", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.34, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:18:25", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.835", "details": {"query": "food composition at  a glance", "model": "openai/gpt-oss-20b", "latency_sec": 0.835, "input_tokens": 1043, "output_tokens": 321, "total_tokens": 1364}}
+{"timestamp": "2026-09-16T14:18:25", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.208", "details": {"query": "food composition at  a glance", "latency_sec": 1.208}}
+{"timestamp": "2026-09-16T14:18:25", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.209", "details": {"endpoint": "/ask", "query": "food composition at  a glance", "latency_sec": 1.209}}
+{"timestamp": "2026-09-16T14:18:25", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.213}}
+{"timestamp": "2026-09-16T14:19:24", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "food composition in sugar and jaggery"}}
+{"timestamp": "2026-09-16T14:19:24", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "food composition in sugar and jaggery"}}
+{"timestamp": "2026-09-16T14:19:24", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "food composition in sugar and jaggery"}}
+{"timestamp": "2026-09-16T14:19:24", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.020", "details": {"query": "food composition in sugar and jaggery", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.02}}
+{"timestamp": "2026-09-16T14:19:24", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.360", "details": {"query": "food composition in sugar and jaggery", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.36, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:19:25", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.667", "details": {"query": "food composition in sugar and jaggery", "model": "openai/gpt-oss-20b", "latency_sec": 0.667, "input_tokens": 991, "output_tokens": 188, "total_tokens": 1179}}
+{"timestamp": "2026-09-16T14:19:25", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.048", "details": {"query": "food composition in sugar and jaggery", "latency_sec": 1.048}}
+{"timestamp": "2026-09-16T14:19:25", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.049", "details": {"endpoint": "/ask", "query": "food composition in sugar and jaggery", "latency_sec": 1.049}}
+{"timestamp": "2026-09-16T14:19:25", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.054}}
+{"timestamp": "2026-09-16T14:22:16", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "active compound in turmeric"}}
+{"timestamp": "2026-09-16T14:22:16", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "active compound in turmeric"}}
+{"timestamp": "2026-09-16T14:22:16", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "active compound in turmeric"}}
+{"timestamp": "2026-09-16T14:22:16", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.038", "details": {"query": "active compound in turmeric", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.038}}
+{"timestamp": "2026-09-16T14:22:16", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.383", "details": {"query": "active compound in turmeric", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.383, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:22:17", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.461", "details": {"query": "active compound in turmeric", "model": "openai/gpt-oss-20b", "latency_sec": 0.461, "input_tokens": 1033, "output_tokens": 30, "total_tokens": 1063}}
+{"timestamp": "2026-09-16T14:22:17", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.885", "details": {"query": "active compound in turmeric", "latency_sec": 0.885}}
+{"timestamp": "2026-09-16T14:22:17", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.887", "details": {"endpoint": "/ask", "query": "active compound in turmeric", "latency_sec": 0.887}}
+{"timestamp": "2026-09-16T14:22:17", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.895}}
+{"timestamp": "2026-09-16T14:24:06", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana "}}
+{"timestamp": "2026-09-16T14:24:06", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana"}}
+{"timestamp": "2026-09-16T14:24:06", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana"}}
+{"timestamp": "2026-09-16T14:24:06", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.025", "details": {"query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.025}}
+{"timestamp": "2026-09-16T14:24:06", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.430", "details": {"query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.43, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:24:07", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.707", "details": {"query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana", "model": "openai/gpt-oss-20b", "latency_sec": 0.707, "input_tokens": 1220, "output_tokens": 211, "total_tokens": 1431}}
+{"timestamp": "2026-09-16T14:24:07", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.164", "details": {"query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana", "latency_sec": 1.164}}
+{"timestamp": "2026-09-16T14:24:07", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.166", "details": {"endpoint": "/ask", "query": ". Percentage of U.S. Recommended Daily \nAllowance of vitamins and minerals provided by 100 g\nof banana", "latency_sec": 1.166}}
+{"timestamp": "2026-09-16T14:24:07", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.195}}
+{"timestamp": "2026-09-16T14:32:07", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)"}}
+{"timestamp": "2026-09-16T14:32:07", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)"}}
+{"timestamp": "2026-09-16T14:32:07", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)"}}
+{"timestamp": "2026-09-16T14:32:07", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.029", "details": {"query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.029}}
+{"timestamp": "2026-09-16T14:32:07", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.305", "details": {"query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.305, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:32:08", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.907", "details": {"query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)", "model": "openai/gpt-oss-20b", "latency_sec": 0.907, "input_tokens": 1227, "output_tokens": 275, "total_tokens": 1502}}
+{"timestamp": "2026-09-16T14:32:08", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.243", "details": {"query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)", "latency_sec": 1.243}}
+{"timestamp": "2026-09-16T14:32:08", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.243", "details": {"endpoint": "/ask", "query": "BALANCED DIET FOR ADULT MAN (SEDENTARY)", "latency_sec": 1.243}}
+{"timestamp": "2026-09-16T14:32:08", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.249}}
+{"timestamp": "2026-09-16T14:34:07", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "PREPARATION OF AMYLASE RICH FOOD (ARF"}}
+{"timestamp": "2026-09-16T14:34:07", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "PREPARATION OF AMYLASE RICH FOOD (ARF"}}
+{"timestamp": "2026-09-16T14:34:07", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "PREPARATION OF AMYLASE RICH FOOD (ARF"}}
+{"timestamp": "2026-09-16T14:34:07", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.029", "details": {"query": "PREPARATION OF AMYLASE RICH FOOD (ARF", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.029}}
+{"timestamp": "2026-09-16T14:34:08", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.289", "details": {"query": "PREPARATION OF AMYLASE RICH FOOD (ARF", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.289, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:34:08", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.740", "details": {"query": "PREPARATION OF AMYLASE RICH FOOD (ARF", "model": "openai/gpt-oss-20b", "latency_sec": 0.74, "input_tokens": 1120, "output_tokens": 172, "total_tokens": 1292}}
+{"timestamp": "2026-09-16T14:34:08", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.059", "details": {"query": "PREPARATION OF AMYLASE RICH FOOD (ARF", "latency_sec": 1.059}}
+{"timestamp": "2026-09-16T14:34:08", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.060", "details": {"endpoint": "/ask", "query": "PREPARATION OF AMYLASE RICH FOOD (ARF", "latency_sec": 1.06}}
+{"timestamp": "2026-09-16T14:34:08", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.065}}
+{"timestamp": "2026-09-16T14:34:52", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T14:34:52", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T14:34:52", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T14:34:52", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.028", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.028}}
+{"timestamp": "2026-09-16T14:34:52", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.253", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.253, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:34:53", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.692", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "model": "openai/gpt-oss-20b", "latency_sec": 0.692, "input_tokens": 1040, "output_tokens": 207, "total_tokens": 1247}}
+{"timestamp": "2026-09-16T14:34:53", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.976", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "latency_sec": 0.976}}
+{"timestamp": "2026-09-16T14:34:53", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.977", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils", "latency_sec": 0.977}}
+{"timestamp": "2026-09-16T14:34:53", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.983}}
+{"timestamp": "2026-09-16T14:35:35", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T14:35:35", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T14:35:35", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T14:35:35", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.023", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.023}}
+{"timestamp": "2026-09-16T14:35:35", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.241", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.241, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T14:35:36", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.892", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "model": "openai/gpt-oss-20b", "latency_sec": 0.892, "input_tokens": 1038, "output_tokens": 356, "total_tokens": 1394}}
+{"timestamp": "2026-09-16T14:35:36", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.159", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "latency_sec": 1.159}}
+{"timestamp": "2026-09-16T14:35:36", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.161", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "latency_sec": 1.161}}
+{"timestamp": "2026-09-16T14:35:36", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.172}}
+{"timestamp": "2026-09-16T14:36:04", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-09-16T14:36:04", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-09-16T15:04:47", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-09-16T15:04:47", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-09-16T15:04:49", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 19956, "port": 8000}}
+{"timestamp": "2026-09-16T15:04:49", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-09-16T15:04:49", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 20468, "port": 8501}}
+{"timestamp": "2026-09-16T15:04:49", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-09-16T15:05:31", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T15:05:31", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T15:05:31", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition"}}
+{"timestamp": "2026-09-16T15:05:31", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.133", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.133}}
+{"timestamp": "2026-09-16T15:05:31", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.244", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.244, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:05:32", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.198", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "model": "openai/gpt-oss-20b", "latency_sec": 1.198, "input_tokens": 1038, "output_tokens": 326, "total_tokens": 1364}}
+{"timestamp": "2026-09-16T15:05:32", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.577", "details": {"query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "latency_sec": 1.577}}
+{"timestamp": "2026-09-16T15:05:32", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.578", "details": {"endpoint": "/ask", "query": "MAINTENANCE OF\nBody Weight \n& \nBody \nComposition", "latency_sec": 1.578}}
+{"timestamp": "2026-09-16T15:05:32", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.593}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "what is ocr?"}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "what is ocr?"}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "what is ocr?"}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.023", "details": {"query": "what is ocr?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.023}}
+{"timestamp": "2026-09-16T15:05:37", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "what is ocr?"}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.026", "details": {"endpoint": "/ask", "query": "what is ocr?", "latency_sec": 0.026}}
+{"timestamp": "2026-09-16T15:05:37", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.032}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "idp"}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "idp"}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "idp"}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.027", "details": {"query": "idp", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.027}}
+{"timestamp": "2026-09-16T15:05:56", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "idp"}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.028", "details": {"endpoint": "/ask", "query": "idp", "latency_sec": 0.028}}
+{"timestamp": "2026-09-16T15:05:56", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.033}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet "}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.028", "details": {"query": "lorem ipsum dolor sit amet", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.028}}
+{"timestamp": "2026-09-16T15:06:11", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.029", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet", "latency_sec": 0.029}}
+{"timestamp": "2026-09-16T15:06:11", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.034}}
+{"timestamp": "2026-09-16T15:06:18", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T15:06:18", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T15:06:18", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "Major Types of Fatty Acids in Fats and Oils"}}
+{"timestamp": "2026-09-16T15:06:18", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.021", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.021}}
+{"timestamp": "2026-09-16T15:06:18", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.303", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.303, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:06:19", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.628", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "model": "openai/gpt-oss-20b", "latency_sec": 0.628, "input_tokens": 1040, "output_tokens": 156, "total_tokens": 1196}}
+{"timestamp": "2026-09-16T15:06:19", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.954", "details": {"query": "Major Types of Fatty Acids in Fats and Oils", "latency_sec": 0.954}}
+{"timestamp": "2026-09-16T15:06:19", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.956", "details": {"endpoint": "/ask", "query": "Major Types of Fatty Acids in Fats and Oils", "latency_sec": 0.956}}
+{"timestamp": "2026-09-16T15:06:19", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.967}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet "}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.019", "details": {"query": "lorem ipsum dolor sit amet", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.019}}
+{"timestamp": "2026-09-16T15:06:44", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "lorem ipsum dolor sit amet"}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.021", "details": {"endpoint": "/ask", "query": "lorem ipsum dolor sit amet", "latency_sec": 0.021}}
+{"timestamp": "2026-09-16T15:06:44", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.029}}
+{"timestamp": "2026-09-16T15:06:58", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-09-16T15:06:58", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-09-16T15:10:42", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-09-16T15:10:42", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-09-16T15:10:44", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 19720, "port": 8000}}
+{"timestamp": "2026-09-16T15:10:44", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-09-16T15:10:44", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 19984, "port": 8501}}
+{"timestamp": "2026-09-16T15:10:44", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-09-16T15:11:21", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "cybersecurity"}}
+{"timestamp": "2026-09-16T15:11:21", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "cybersecurity"}}
+{"timestamp": "2026-09-16T15:11:21", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "cybersecurity"}}
+{"timestamp": "2026-09-16T15:11:22", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.165", "details": {"query": "cybersecurity", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.165}}
+{"timestamp": "2026-09-16T15:11:22", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "cybersecurity"}}
+{"timestamp": "2026-09-16T15:11:22", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.167", "details": {"endpoint": "/ask", "query": "cybersecurity", "latency_sec": 0.167}}
+{"timestamp": "2026-09-16T15:11:22", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.183}}
+{"timestamp": "2026-09-16T15:11:38", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "heart food"}}
+{"timestamp": "2026-09-16T15:11:38", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "heart food"}}
+{"timestamp": "2026-09-16T15:11:38", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "heart food"}}
+{"timestamp": "2026-09-16T15:11:38", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.027", "details": {"query": "heart food", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.027}}
+{"timestamp": "2026-09-16T15:11:38", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.306", "details": {"query": "heart food", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.306, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:11:39", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.071", "details": {"query": "heart food", "model": "openai/gpt-oss-20b", "latency_sec": 1.071, "input_tokens": 983, "output_tokens": 223, "total_tokens": 1206}}
+{"timestamp": "2026-09-16T15:11:39", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.405", "details": {"query": "heart food", "latency_sec": 1.405}}
+{"timestamp": "2026-09-16T15:11:39", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.406", "details": {"endpoint": "/ask", "query": "heart food", "latency_sec": 1.406}}
+{"timestamp": "2026-09-16T15:11:39", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.412}}
+{"timestamp": "2026-09-16T15:12:00", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-09-16T15:12:00", "level": "INFO", "module": "__main__", "event": "application_stopped"}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "ingestion_started", "details": {"bucket": "bucket_1"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | antioxidant_rich_foods_20.pdf", "details": {"bucket": "bucket_1", "filename": "antioxidant_rich_foods_20.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | anti_inflammatory_foods_50.pdf", "details": {"bucket": "bucket_1", "filename": "anti_inflammatory_foods_50.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | apple_5.pdf", "details": {"bucket": "bucket_1", "filename": "apple_5.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | b12_sources.png", "details": {"bucket": "bucket_1", "filename": "b12_sources.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | baby_first_foods.png", "details": {"bucket": "bucket_1", "filename": "baby_first_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | baby_foods_first_year_52.pdf", "details": {"bucket": "bucket_1", "filename": "baby_foods_first_year_52.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | banana_4.pdf", "details": {"bucket": "bucket_1", "filename": "banana_4.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | best_foods_for_breakfast.txt", "details": {"bucket": "bucket_1", "filename": "best_foods_for_breakfast.txt"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | bone_food.png", "details": {"bucket": "bucket_1", "filename": "bone_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | brain_food.png", "details": {"bucket": "bucket_1", "filename": "brain_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | cabbage_4.pdf", "details": {"bucket": "bucket_1", "filename": "cabbage_4.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | calcium_chart.png", "details": {"bucket": "bucket_1", "filename": "calcium_chart.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | calcium_sources_30.pdf", "details": {"bucket": "bucket_1", "filename": "calcium_sources_30.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | carbohydrates.jpg", "details": {"bucket": "bucket_1", "filename": "carbohydrates.jpg"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | dates.png", "details": {"bucket": "bucket_1", "filename": "dates.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | DietaryGuidelinesforIN_139.pdf", "details": {"bucket": "bucket_1", "filename": "DietaryGuidelinesforIN_139.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | Food,Nutrition,HealthAndFitness_19.pdf", "details": {"bucket": "bucket_1", "filename": "Food,Nutrition,HealthAndFitness_19.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | food_1.png", "details": {"bucket": "bucket_1", "filename": "food_1.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | food_2.jpg", "details": {"bucket": "bucket_1", "filename": "food_2.jpg"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | food_3.png", "details": {"bucket": "bucket_1", "filename": "food_3.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | fruit_nutritional_facts.txt", "details": {"bucket": "bucket_1", "filename": "fruit_nutritional_facts.txt"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | guava_2.pdf", "details": {"bucket": "bucket_1", "filename": "guava_2.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | gut_friendly_foods.png", "details": {"bucket": "bucket_1", "filename": "gut_friendly_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | healthy_lifestyle_4.pdf", "details": {"bucket": "bucket_1", "filename": "healthy_lifestyle_4.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | healthy_snacks.png", "details": {"bucket": "bucket_1", "filename": "healthy_snacks.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | heart_food.png", "details": {"bucket": "bucket_1", "filename": "heart_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | hydration_chart.png", "details": {"bucket": "bucket_1", "filename": "hydration_chart.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | iron_sources_diagram.png", "details": {"bucket": "bucket_1", "filename": "iron_sources_diagram.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | kidney_food.png", "details": {"bucket": "bucket_1", "filename": "kidney_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | kids_healthy_lunch_62.pdf", "details": {"bucket": "bucket_1", "filename": "kids_healthy_lunch_62.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | kids_lunch.png", "details": {"bucket": "bucket_1", "filename": "kids_lunch.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | lemon_1_5.pdf", "details": {"bucket": "bucket_1", "filename": "lemon_1_5.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | low_gi_foods.png", "details": {"bucket": "bucket_1", "filename": "low_gi_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | low_sodium.png", "details": {"bucket": "bucket_1", "filename": "low_sodium.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | low_sodium_diet_48.pdf", "details": {"bucket": "bucket_1", "filename": "low_sodium_diet_48.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | magnesium_foods.png", "details": {"bucket": "bucket_1", "filename": "magnesium_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | magnesium_sources_22.pdf", "details": {"bucket": "bucket_1", "filename": "magnesium_sources_22.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | mango_15.pdf", "details": {"bucket": "bucket_1", "filename": "mango_15.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | multimodal_test_01.pdf", "details": {"bucket": "bucket_1", "filename": "multimodal_test_01.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | omega3_foods.png", "details": {"bucket": "bucket_1", "filename": "omega3_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | omega3_sources_38.pdf", "details": {"bucket": "bucket_1", "filename": "omega3_sources_38.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | peas_7.pdf", "details": {"bucket": "bucket_1", "filename": "peas_7.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | pomegranate_8.pdf", "details": {"bucket": "bucket_1", "filename": "pomegranate_8.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | post_workout_foods.png", "details": {"bucket": "bucket_1", "filename": "post_workout_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | post_workout_foods_42.pdf", "details": {"bucket": "bucket_1", "filename": "post_workout_foods_42.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | potato_4.pdf", "details": {"bucket": "bucket_1", "filename": "potato_4.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | proteins.png", "details": {"bucket": "bucket_1", "filename": "proteins.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | pumpkin_seeds.png", "details": {"bucket": "bucket_1", "filename": "pumpkin_seeds.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | skin_food.png", "details": {"bucket": "bucket_1", "filename": "skin_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | stomach_food.png", "details": {"bucket": "bucket_1", "filename": "stomach_food.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "parser", "event": "pdf_parsing_completed", "details": {"filename": "test (1).pdf", "pages": 1, "ocr_pages": 0, "characters_extracted": 1350, "duration_seconds": 0.006}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_indexed | test (1).pdf", "details": {"bucket": "bucket_1", "filename": "test (1).pdf", "chunks_created": 3}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | vitamin_c_foods_28.pdf", "details": {"bucket": "bucket_1", "filename": "vitamin_c_foods_28.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "bucket_completed", "details": {"bucket": "bucket_1", "files_processed": 1, "files_reindexed": 0, "files_skipped": 51, "files_failed": 0, "chunks_created": 3, "chunking_duration_seconds": 0.0, "embedding_duration_seconds": 0.142, "duration_seconds": 0.633}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "ingestion_started", "details": {"bucket": "bucket_2"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | antioxidant_foods.png", "details": {"bucket": "bucket_2", "filename": "antioxidant_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | anti_inflammatory.png", "details": {"bucket": "bucket_2", "filename": "anti_inflammatory.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | anti_inflammatory_foods_50.pdf", "details": {"bucket": "bucket_2", "filename": "anti_inflammatory_foods_50.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | apple.png", "details": {"bucket": "bucket_2", "filename": "apple.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | apple_2.png", "details": {"bucket": "bucket_2", "filename": "apple_2.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | avacado.png", "details": {"bucket": "bucket_2", "filename": "avacado.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | Basics_of_food_nutrition_54.pdf", "details": {"bucket": "bucket_2", "filename": "Basics_of_food_nutrition_54.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | blueberries.png", "details": {"bucket": "bucket_2", "filename": "blueberries.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | brocolli.png", "details": {"bucket": "bucket_2", "filename": "brocolli.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | calcium_chart.png", "details": {"bucket": "bucket_2", "filename": "calcium_chart.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | carrot_4.pdf", "details": {"bucket": "bucket_2", "filename": "carrot_4.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | complete_diet_guide_70.pdf", "details": {"bucket": "bucket_2", "filename": "complete_diet_guide_70.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | cucumber_5.pdf", "details": {"bucket": "bucket_2", "filename": "cucumber_5.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | daily_diet_summary.png", "details": {"bucket": "bucket_2", "filename": "daily_diet_summary.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | Dark_chocolate_14.pdf", "details": {"bucket": "bucket_2", "filename": "Dark_chocolate_14.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | diabetic_friendly_foods_46.pdf", "details": {"bucket": "bucket_2", "filename": "diabetic_friendly_foods_46.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | elderly_nutrition.png", "details": {"bucket": "bucket_2", "filename": "elderly_nutrition.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | elderly_nutrition_54.pdf", "details": {"bucket": "bucket_2", "filename": "elderly_nutrition_54.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | fasting_foods.png", "details": {"bucket": "bucket_2", "filename": "fasting_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | fasting_friendly_foods_64.pdf", "details": {"bucket": "bucket_2", "filename": "fasting_friendly_foods_64.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | fiber_rich_foods.png", "details": {"bucket": "bucket_2", "filename": "fiber_rich_foods.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | fiber_rich_foods_34.pdf", "details": {"bucket": "bucket_2", "filename": "fiber_rich_foods_34.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | flax_seeds.png", "details": {"bucket": "bucket_2", "filename": "flax_seeds.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | FoodAndNutrition_43.pdf", "details": {"bucket": "bucket_2", "filename": "FoodAndNutrition_43.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | Foods for Healthy Hair.txt", "details": {"bucket": "bucket_2", "filename": "Foods for Healthy Hair.txt"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | food_4.jpeg", "details": {"bucket": "bucket_2", "filename": "food_4.jpeg"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | food_5.png", "details": {"bucket": "bucket_2", "filename": "food_5.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | jackfruit_48.pdf", "details": {"bucket": "bucket_2", "filename": "jackfruit_48.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | lemon.png", "details": {"bucket": "bucket_2", "filename": "lemon.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | lentil.png", "details": {"bucket": "bucket_2", "filename": "lentil.png"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | lentils_14.pdf", "details": {"bucket": "bucket_2", "filename": "lentils_14.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | nutritional_properties_16.pdf", "details": {"bucket": "bucket_2", "filename": "nutritional_properties_16.pdf"}}
+{"timestamp": "2026-09-16T15:12:31", "level": "INFO", "module": "__main__", "event": "file_skipped | orange.png", "details": {"bucket": "bucket_2", "filename": "orange.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | portion_contol_8.pdf", "details": {"bucket": "bucket_2", "filename": "portion_contol_8.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | prebiotic_probiotic_44.pdf", "details": {"bucket": "bucket_2", "filename": "prebiotic_probiotic_44.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | pregnancy_nutrients.png", "details": {"bucket": "bucket_2", "filename": "pregnancy_nutrients.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | pregnancy_nutrition_56.pdf", "details": {"bucket": "bucket_2", "filename": "pregnancy_nutrition_56.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | probiotic_foods.png", "details": {"bucket": "bucket_2", "filename": "probiotic_foods.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | smoothie_recipes.png", "details": {"bucket": "bucket_2", "filename": "smoothie_recipes.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | spinach.png", "details": {"bucket": "bucket_2", "filename": "spinach.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | spinach_6.pdf", "details": {"bucket": "bucket_2", "filename": "spinach_6.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | sports_nutrition.png", "details": {"bucket": "bucket_2", "filename": "sports_nutrition.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | sports_nutrition_58.pdf", "details": {"bucket": "bucket_2", "filename": "sports_nutrition_58.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | sustainable_diet.png", "details": {"bucket": "bucket_2", "filename": "sustainable_diet.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | sustainable_diet_66.pdf", "details": {"bucket": "bucket_2", "filename": "sustainable_diet_66.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | tomato_6.pdf", "details": {"bucket": "bucket_2", "filename": "tomato_6.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | vegetable_nutritional_facts.txt", "details": {"bucket": "bucket_2", "filename": "vegetable_nutritional_facts.txt"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | vitamin_b12_guide_36.pdf", "details": {"bucket": "bucket_2", "filename": "vitamin_b12_guide_36.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | vitamin_c_chart.png", "details": {"bucket": "bucket_2", "filename": "vitamin_c_chart.png"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "file_skipped | vitamin_c_foods_28.pdf", "details": {"bucket": "bucket_2", "filename": "vitamin_c_foods_28.pdf"}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "bucket_completed", "details": {"bucket": "bucket_2", "files_processed": 0, "files_reindexed": 0, "files_skipped": 50, "files_failed": 0, "chunks_created": 0, "chunking_duration_seconds": 0.0, "embedding_duration_seconds": 0.0, "duration_seconds": 0.397}}
+{"timestamp": "2026-09-16T15:12:32", "level": "INFO", "module": "__main__", "event": "ingestion_completed", "details": {"duration_seconds": 1.03}}
+{"timestamp": "2026-09-16T15:12:57", "level": "INFO", "module": "__main__", "event": "application_starting"}
+{"timestamp": "2026-09-16T15:12:57", "level": "INFO", "module": "__main__", "event": "backend_starting", "details": {"service": "fastapi", "port": 8000}}
+{"timestamp": "2026-09-16T15:12:59", "level": "INFO", "module": "__main__", "event": "backend_started", "details": {"service": "fastapi", "pid": 5380, "port": 8000}}
+{"timestamp": "2026-09-16T15:12:59", "level": "INFO", "module": "__main__", "event": "frontend_starting", "details": {"service": "streamlit", "port": 8501}}
+{"timestamp": "2026-09-16T15:12:59", "level": "INFO", "module": "__main__", "event": "frontend_started", "details": {"service": "streamlit", "pid": 4784, "port": 8501}}
+{"timestamp": "2026-09-16T15:12:59", "level": "INFO", "module": "__main__", "event": "application_started"}
+{"timestamp": "2026-09-16T15:13:46", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "cyber security"}}
+{"timestamp": "2026-09-16T15:13:46", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "cyber security"}}
+{"timestamp": "2026-09-16T15:13:46", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "cyber security"}}
+{"timestamp": "2026-09-16T15:13:46", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.147", "details": {"query": "cyber security", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 3, "latency_sec": 0.147}}
+{"timestamp": "2026-09-16T15:13:46", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.052", "details": {"query": "cyber security", "candidates": 3, "selected_chunks": 3, "latency_sec": 0.052, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:13:47", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=1.130", "details": {"query": "cyber security", "model": "openai/gpt-oss-20b", "latency_sec": 1.13, "input_tokens": 638, "output_tokens": 243, "total_tokens": 881}}
+{"timestamp": "2026-09-16T15:13:47", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=1.331", "details": {"query": "cyber security", "latency_sec": 1.331}}
+{"timestamp": "2026-09-16T15:13:47", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=1.332", "details": {"endpoint": "/ask", "query": "cyber security", "latency_sec": 1.332}}
+{"timestamp": "2026-09-16T15:13:47", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 1.346}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "ocr"}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "ocr"}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "ocr"}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.018", "details": {"query": "ocr", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.018}}
+{"timestamp": "2026-09-16T15:13:52", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "ocr"}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.019", "details": {"endpoint": "/ask", "query": "ocr", "latency_sec": 0.019}}
+{"timestamp": "2026-09-16T15:13:52", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.026}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "idp"}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "idp"}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "idp"}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.017", "details": {"query": "idp", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.017}}
+{"timestamp": "2026-09-16T15:13:56", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "idp"}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.018", "details": {"endpoint": "/ask", "query": "idp", "latency_sec": 0.018}}
+{"timestamp": "2026-09-16T15:13:56", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.023}}
+{"timestamp": "2026-09-16T15:14:10", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "cyber threat"}}
+{"timestamp": "2026-09-16T15:14:10", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "cyber threat"}}
+{"timestamp": "2026-09-16T15:14:10", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "cyber threat"}}
+{"timestamp": "2026-09-16T15:14:10", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.020", "details": {"query": "cyber threat", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 3, "latency_sec": 0.02}}
+{"timestamp": "2026-09-16T15:14:10", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.047", "details": {"query": "cyber threat", "candidates": 3, "selected_chunks": 3, "latency_sec": 0.047, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:14:11", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.500", "details": {"query": "cyber threat", "model": "openai/gpt-oss-20b", "latency_sec": 0.5, "input_tokens": 638, "output_tokens": 116, "total_tokens": 754}}
+{"timestamp": "2026-09-16T15:14:11", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.570", "details": {"query": "cyber threat", "latency_sec": 0.57}}
+{"timestamp": "2026-09-16T15:14:11", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.571", "details": {"endpoint": "/ask", "query": "cyber threat", "latency_sec": 0.571}}
+{"timestamp": "2026-09-16T15:14:11", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.576}}
+{"timestamp": "2026-09-16T15:14:44", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "optical character recognition"}}
+{"timestamp": "2026-09-16T15:14:44", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "optical character recognition"}}
+{"timestamp": "2026-09-16T15:14:44", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "optical character recognition"}}
+{"timestamp": "2026-09-16T15:14:45", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.028", "details": {"query": "optical character recognition", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.028}}
+{"timestamp": "2026-09-16T15:14:45", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "optical character recognition"}}
+{"timestamp": "2026-09-16T15:14:45", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.031", "details": {"endpoint": "/ask", "query": "optical character recognition", "latency_sec": 0.031}}
+{"timestamp": "2026-09-16T15:14:45", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.038}}
+{"timestamp": "2026-09-16T15:15:59", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "give functions of food at a glance"}}
+{"timestamp": "2026-09-16T15:15:59", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "give functions of food at a glance"}}
+{"timestamp": "2026-09-16T15:15:59", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "give functions of food at a glance"}}
+{"timestamp": "2026-09-16T15:15:59", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.017", "details": {"query": "give functions of food at a glance", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.017}}
+{"timestamp": "2026-09-16T15:16:00", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.263", "details": {"query": "give functions of food at a glance", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.263, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:16:00", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.524", "details": {"query": "give functions of food at a glance", "model": "openai/gpt-oss-20b", "latency_sec": 0.524, "input_tokens": 848, "output_tokens": 161, "total_tokens": 1009}}
+{"timestamp": "2026-09-16T15:16:00", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.805", "details": {"query": "give functions of food at a glance", "latency_sec": 0.805}}
+{"timestamp": "2026-09-16T15:16:00", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.806", "details": {"endpoint": "/ask", "query": "give functions of food at a glance", "latency_sec": 0.806}}
+{"timestamp": "2026-09-16T15:16:00", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.811}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "functions of food"}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "functions of food"}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "functions of food"}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.015", "details": {"query": "functions of food", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.015}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.222", "details": {"query": "functions of food", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.222, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.703", "details": {"query": "functions of food", "model": "openai/gpt-oss-20b", "latency_sec": 0.703, "input_tokens": 924, "output_tokens": 147, "total_tokens": 1071}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.943", "details": {"query": "functions of food", "latency_sec": 0.943}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.944", "details": {"endpoint": "/ask", "query": "functions of food", "latency_sec": 0.944}}
+{"timestamp": "2026-09-16T15:16:56", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.954}}
+{"timestamp": "2026-09-16T15:17:10", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "what are the functions of food?"}}
+{"timestamp": "2026-09-16T15:17:10", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "what are the functions of food?"}}
+{"timestamp": "2026-09-16T15:17:10", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "what are the functions of food?"}}
+{"timestamp": "2026-09-16T15:17:10", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.017", "details": {"query": "what are the functions of food?", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 15, "latency_sec": 0.017}}
+{"timestamp": "2026-09-16T15:17:10", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.192", "details": {"query": "what are the functions of food?", "candidates": 15, "selected_chunks": 5, "latency_sec": 0.192, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:17:11", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.767", "details": {"query": "what are the functions of food?", "model": "openai/gpt-oss-20b", "latency_sec": 0.767, "input_tokens": 847, "output_tokens": 232, "total_tokens": 1079}}
+{"timestamp": "2026-09-16T15:17:11", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.979", "details": {"query": "what are the functions of food?", "latency_sec": 0.979}}
+{"timestamp": "2026-09-16T15:17:11", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.980", "details": {"endpoint": "/ask", "query": "what are the functions of food?", "latency_sec": 0.98}}
+{"timestamp": "2026-09-16T15:17:11", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.984}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "ocr"}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "ocr"}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "ocr"}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.014", "details": {"query": "ocr", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 0, "latency_sec": 0.014}}
+{"timestamp": "2026-09-16T15:17:45", "level": "WARNING", "module": "main", "event": "no_relevant_chunks", "details": {"query": "ocr"}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.015", "details": {"endpoint": "/ask", "query": "ocr", "latency_sec": 0.015}}
+{"timestamp": "2026-09-16T15:17:45", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.02}}
+{"timestamp": "2026-09-16T15:17:50", "level": "INFO", "module": "__main__", "event": "request_sent", "details": {"endpoint": "/ask", "query": "cyber security"}}
+{"timestamp": "2026-09-16T15:17:50", "level": "INFO", "module": "api", "event": "api_request_started", "details": {"endpoint": "/ask", "query": "cyber security"}}
+{"timestamp": "2026-09-16T15:17:50", "level": "INFO", "module": "main", "event": "rag_started", "details": {"query": "cyber security"}}
+{"timestamp": "2026-09-16T15:17:50", "level": "INFO", "module": "query", "event": "retrieval_finished | latency_sec=0.018", "details": {"query": "cyber security", "chunks_requested": 15, "chunks_retrieved": 15, "chunks_accepted": 3, "latency_sec": 0.018}}
+{"timestamp": "2026-09-16T15:17:50", "level": "INFO", "module": "query", "event": "reranking_finished | latency_sec=0.046", "details": {"query": "cyber security", "candidates": 3, "selected_chunks": 3, "latency_sec": 0.046, "model": "cross-encoder/ms-marco-MiniLM-L6-v2"}}
+{"timestamp": "2026-09-16T15:17:51", "level": "INFO", "module": "main", "event": "generation_completed | latency_sec=0.748", "details": {"query": "cyber security", "model": "openai/gpt-oss-20b", "latency_sec": 0.748, "input_tokens": 638, "output_tokens": 272, "total_tokens": 910}}
+{"timestamp": "2026-09-16T15:17:51", "level": "INFO", "module": "main", "event": "rag_completed | latency_sec=0.814", "details": {"query": "cyber security", "latency_sec": 0.814}}
+{"timestamp": "2026-09-16T15:17:51", "level": "INFO", "module": "api", "event": "api_request_completed | latency_sec=0.817", "details": {"endpoint": "/ask", "query": "cyber security", "latency_sec": 0.817}}
+{"timestamp": "2026-09-16T15:17:51", "level": "INFO", "module": "__main__", "event": "response_received", "details": {"endpoint": "/ask", "status_code": 200, "latency_sec": 0.827}}
+{"timestamp": "2026-09-16T15:18:26", "level": "INFO", "module": "__main__", "event": "application_shutdown_requested"}
+{"timestamp": "2026-09-16T15:18:26", "level": "INFO", "module": "__main__", "event": "application_stopped"}
